@@ -56,6 +56,7 @@ main {
     display: flex;
     align-self: center;
     width: 1400px;
+    overflow-x: visible;
 }
 
 /* Left */
@@ -65,13 +66,14 @@ main {
     flex-direction: column;
 
     position: relative;
+    overflow: visible;
 }
 
 #stars_background {
     position: relative;
-    object-fit: cover;
+    left: -250px;
+    object-fit:contain;
     height: 700px;
-    width: 550px;
 
     opacity: 80%;
 }
@@ -103,7 +105,7 @@ main {
     display: flex;
     flex-direction: column; 
     position: relative; 
-    left: -170px;
+    left: -360px;
 }
 
 #main_img {
@@ -130,6 +132,8 @@ main {
 .title h2 {
     text-align: center;
 }
+
+
 
 /*Button*/
 
@@ -163,24 +167,19 @@ main {
     bottom: -40px;
     left: 160px;
 
-    animation: 5s up infinite;
+    animation: 2s up infinite;
+    animation-timing-function:ease;
 }
 
 @keyframes up {
     0% {
-        transform: translateY(-15px);
-    }
-
-    50% {
-        transform: translateY(30px);
+        transform: translate(10px, 10px);
     }
 
     100% {
-        transform: translateY(-15px); 
+        transform: translateY(-10px, -10px);
     }
 }
-
-
 
 /* Right */
 
@@ -202,54 +201,62 @@ main {
 
 .right_pic {
     height: 500px;
-    left: -100px;
+    left: -320px;
     top: -100px;
 }
 
 .love {
     height: 70px;
-    left: -50px;
-    animation: 7s rotation infinite;
-    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    left: -260px;
+    animation: 3s slideup infinite;
+    animation-timing-function: ease-out;
 }
 
-@keyframes rotation {
+@keyframes slideup {
     0% {
-        transform: rotate(-30deg);
+       /* transform: translate(0px, 0px);*/
+        opacity: 0;
     }
     50% {
-        transform: rotate(30deg);
+        opacity: 1;
+        
     }
     100% {
-        transform: rotate(-30deg);
+        transform: translate(-60px,-60px);
+        height: 90px;
+        opacity: 0;
     }
 }
 
 .clouds {
     height: 120px;
-    left: -170px;
+    left: -350px;
     top: -330px;
     
-    animation: 15s slide infinite;
+    animation: 5s slide infinite;
     animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 @keyframes slide {
     0% {
         transform: translateX(0px);
+        opacity: 0;
     }
-    50% {
-        transform: translateX(200px);
+
+    30% {
+        opacity: 1;
     }
+
     100% {
-        transform: translateX(0px);
+        transform: translateX(200px);
+        opacity: 0;
     }
 }
 
 .korean_love {
     height: 500px;
     top: -240px;
-    left: -160px;
+    left: -330px;
     z-index: -1;
 }
 
@@ -270,7 +277,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 50px;
+    gap: 30px;
 }
 
 .infos_text {
