@@ -1,0 +1,152 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Kemco";
+    src: url("../fonts/Kemco\ Pixel\ Bold.ttf");
+}
+
+@font-face {
+    font-family: "Pixel Digivolve";
+    src: url("../fonts/Pixel\ Digivolve.otf");
+}
+
+/* General */
+
+body {
+    color: #0A0C18;
+    background-color: #FFFAE9;
+
+    font-family: "Kemco";
+    letter-spacing: 2px;
+    font-size: 0.8em;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+.container {
+    display: flex;
+    align-self: center;
+    width: 1400px;
+    overflow-x: visible;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+
+header {
+    background-image: url("../assets/header/Header\ background.jpg");
+    background-position: center;
+    background-repeat: repeat;
+
+    height: 127px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+header img {
+    height: 70px;  
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #0A0C18;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 50px 100px;
+}
+
+/* Colonne de gauche */
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.infos_text {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.infos_text a {
+    display: flex;
+    position: relative;
+
+    gap: 40px;
+    flex-grow: 1;
+}
+
+.infos_text p {
+    padding: 20px 40px;
+    background-color: #D6D2EC;
+    border-radius: 30px;
+    text-align: center;
+    flex-grow: 1;
+
+    font-family: "Pixel Digivolve";
+    font-size: 0.9em;
+    letter-spacing: 0;
+}
+
+.infos_text a::before {
+    content: url("../assets/footer/pointer.png");
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    left: -70px;
+    
+    visibility: hidden;
+
+}
+.infos_text a:hover::before {
+    visibility: visible;
+}
+
+.infos img {
+    height: 90px;
+    object-fit: contain;
+}
+
+.footer_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.footer_right img {
+    height: 27px;
+    object-fit: contain;
+}
+
+.sns img {
+    padding: 10px;
+    background-color: #D6D2EC;
+    border-radius: 15px;
+
+}
+
