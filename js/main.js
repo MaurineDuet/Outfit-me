@@ -62,20 +62,28 @@ footerBtn.forEach(element => {
 
 })
 
-// Ajout de la classe sélectionnée selon les réponse//
+// Ajout de la classe sélectionnée selon les réponses//
 
-const answers = document.querySelectorAll("[data-answer]")
-const answersContainer = document.querySelector("[data-answers]")
+const answersContainers = document.querySelectorAll("[data-answers]")
 
-answers.forEach(answer => {
-    answer.addEventListener("click", e => {
-        const previousSelected = answersContainer.querySelector(".selected")
-        if (previousSelected) {
-            previousSelected.classList.remove("selected")
-        }       
-        answer.classList.add("selected")
+if (answersContainers) {
+    answersContainers.forEach(answersContainer => {
+        const answers = answersContainer.querySelectorAll("[data-answer]")
+        
+        answers.forEach(answer => {
+            answer.addEventListener("click", e => {
+                const previousSelected = answersContainer.querySelector(".selected")
+                if (previousSelected) {
+                    previousSelected.classList.remove("selected")
+                }       
+                answer.classList.add("selected")
+            })
+        })
+        
     })
-})
+}
+
+
 
 
 
