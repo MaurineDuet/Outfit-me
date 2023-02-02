@@ -35,10 +35,13 @@ if (playBtn) {
 }
 
 
-// Audio button footer //
+// Audio button footer et form //
 
 const hoverFooter = new Audio()
 hoverFooter.src = "../assets/sounds/hover3.mp3"
+
+const selectChoice = new Audio()
+selectChoice.src = "../assets/sounds/select.mp3"
 
 const footerBtn = document.querySelectorAll("[data-play-footer]")
 
@@ -52,4 +55,27 @@ footerBtn.forEach(element => {
         hoverFooter.pause()
     })
 
+    element.addEventListener("click", (play)  => {
+        hoverFooter.pause()
+        selectChoice.play()
+    })
+
 })
+
+// Ajout de la classe sélectionnée selon les réponse//
+
+const answers = document.querySelectorAll("[data-answer]")
+const answersContainer = document.querySelector("[data-answers]")
+
+answers.forEach(answer => {
+    answer.addEventListener("click", e => {
+        const previousSelected = answersContainer.querySelector(".selected")
+        if (previousSelected) {
+            previousSelected.classList.remove("selected")
+        }       
+        answer.classList.add("selected")
+    })
+})
+
+
+
