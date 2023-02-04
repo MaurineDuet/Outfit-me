@@ -47,7 +47,12 @@
     font-size: 0.9em;
     cursor: pointer;
 
+
     z-index: 1;
+}
+
+.post_1_text input {
+    padding: 0 10px;
 }
 
 .item {
@@ -270,13 +275,19 @@
 
 .post_2_text {
     display: flex;
-    gap: 30px;
     left: 70px;
+    gap: 10px;
 
     position: absolute;
     top: 300px;
     font-size: 0.9em;
     padding-left: 60px;
+
+    cursor: pointer;
+}
+
+.post_2_text input {
+    padding: 0 10px;
 }
 
 .post_2_col {
@@ -338,13 +349,18 @@
 
 .post_3_text {
     display: flex;
-    gap: 20px;
-    left: 70px;
+    left: 120px;
+    gap: 10px;
 
     position: absolute;
     top: 300px;
     font-size: 0.9em;
-    padding-left: 60px;
+
+    cursor: pointer;
+}
+
+.post_3_text input {
+    padding: 0 10px;
 }
 
 .img_post_3_right {
@@ -450,7 +466,7 @@
     top: -50px;
 }
 
-.submit_button a, #button_click {
+.submit_button input, #button_click {
     position: absolute;
 }
 
@@ -459,8 +475,8 @@ input {
 
 }
 
-.submit_button a {
-    padding: 40px 70px;
+.submit_button input {
+    padding: 30px 70px;
 
     font-family: "Pixel Digivolve";
     font-size: 2em;
@@ -478,13 +494,13 @@ input {
     white-space: nowrap;
 }
 
-.submit_button a:hover {
+.submit_button input:hover {
     background-color: #5863BF;
 }
 
 #button_click {
     height: 60px;
-    top: 80px;
+    top: 70px;
     left: 350px;
 
     animation: 2s up infinite;

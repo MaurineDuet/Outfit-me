@@ -1,5 +1,10 @@
 // Audio button play //
 
+function pauseAndReset (sound) {
+    sound.pause()
+    sound.currentTime = 0
+}
+
 const hover = new Audio()
 hover.src = "../assets/sounds/hover2.mp3"
 
@@ -7,12 +12,12 @@ const playBtn = document.querySelector("[data-play-btn]")
 
 if (playBtn) {
     
-    playBtn.addEventListener("mouseover", (play) => {
+    playBtn.addEventListener("mouseover", () => {
         hover.play()
     })
     
-    playBtn.addEventListener("mouseleave", (play) => {
-        hover.pause()
+    playBtn.addEventListener("mouseleave", () => {
+        pauseAndReset(hover)
     })
     
 }
@@ -24,7 +29,7 @@ if (playBtn) {
     const playStart = new Audio()
     playStart.src = "../assets/sounds/play.mp3"
     
-    playBtn.addEventListener("click", (play) => {
+    playBtn.addEventListener("click", () => {
         playStart.play()
         
         setTimeout(() => {
@@ -37,6 +42,7 @@ if (playBtn) {
 
 // Audio button footer et form //
 
+
 const hoverFooter = new Audio()
 hoverFooter.src = "../assets/sounds/hover3.mp3"
 
@@ -47,17 +53,19 @@ const footerBtn = document.querySelectorAll("[data-play-footer]")
 
 footerBtn.forEach(element => {
     
-    element.addEventListener("mouseover", (play) => {
+    element.addEventListener("mouseover", () => {
         hoverFooter.play()
     })
     
-    element.addEventListener("mouseleave", (play) => {
-        hoverFooter.pause()
+    element.addEventListener("mouseleave", () => {
+        pauseAndReset(hoverFooter)
     })
     
-    element.addEventListener("click", (play)  => {
-        hoverFooter.pause()
+    element.addEventListener("click", ()  => {
+        pauseAndReset(hoverFooter)
+        pauseAndReset(selectChoice)
         selectChoice.play()
+
     })
     
 })
@@ -103,7 +111,6 @@ if (location.pathname === "/loading.html") {
         document.location = 'index.html'
     }, 5000)
 }
-
 
 
 

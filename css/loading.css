@@ -1,9 +1,10 @@
 .fake_footer {
     background-image: url("../assets/header/Header\ background.jpg");
-    height: 120px;
     background-position: center;
     background-repeat: repeat;
     rotate: 180deg;
+    height: 25px;
+
 }
 
 .loading_post {
@@ -11,8 +12,8 @@
     flex-direction: column;
     justify-content: center;
     justify-content: center;
+    height: 80vh;
     gap: 50px;
-    height: 550px;
 }
 
 .loading_post p {
