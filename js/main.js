@@ -30,6 +30,7 @@ if (playBtn) {
     playStart.src = "../assets/sounds/play.mp3"
     
     playBtn.addEventListener("click", () => {
+        pauseAndReset(hover)
         playStart.play()
         
         setTimeout(() => {
@@ -108,7 +109,7 @@ if (outfitBtn) {
 
 if (location.pathname === "/loading.html") {
     setTimeout(() => {
-        document.location = 'index.html'
+        document.location = 'outfit.html'
     }, 5000)
 }
 

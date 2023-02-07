@@ -1,4 +1,6 @@
-/* Post 1 */
+/* ---- COMMUN ----- */
+
+/* Base du post */
 
 .post {
     display: flex;
@@ -6,52 +8,60 @@
     box-sizing: border-box;
 }
 
-/* Centre du post */
-
-.post_1 {
+.post_1, .post_2, .post_3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 
     left: 350px;
-    padding-bottom: 30px;
-
 }
 
-#post_it_1 {
+#post_it_1, #post_it_2, #post_it_3 {
     position: relative;
     height: 550px;
 }
 
-.post_1 h2 {
+.pin_form {
+    top: 110px;
+    left: 400px;
+
+    height: 35px;
+    position: absolute;
+}
+
+.post_1 h2, .post_2 h2, .post_3 h2 {
     position: absolute;
     text-align: center;
-    top: 170px;
-    left: -40px;
 
-    padding: 30px 70px 30px 200px;
+    white-space: nowrap;
     background-color: #D6D2EC;
 }
 
-.post_1_text {
+.post_1_text, .post_2_text, .post_3_text {
     display: flex;
     position: absolute;
-    top: 320px;
-
-
-    display: flex;
-    flex-direction: column;
     gap: 10px;
 
     font-size: 0.9em;
     cursor: pointer;
 
-
     z-index: 1;
 }
 
-.post_1_text input {
+.post_2_col, .post_3_col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ---- Selection des choix ----- */
+
+input {
+    all: unset;  
+}
+
+.post_1_text input, .post_2_text input, .post_3_text input {
     padding: 0 10px;
 }
 
@@ -59,6 +69,10 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.selected {
+    background-color: #96A0FF;
 }
 
 .selector {
@@ -70,12 +84,33 @@
     visibility: visible;
 }
 
-.pin_form {
-    top: 110px;
-    left: 400px;
+/* ---- Image des étoiles ----- */
 
-    height: 35px;
+#last_stars, .stars_background_2 {
     position: absolute;
+    opacity: 80%;
+    z-index: -1;
+    height: 700px;
+}
+
+
+/* ---- POST 1 ----- */
+
+/* Centre du post */
+
+.post_1 {
+    padding-bottom: 30px;
+}
+
+.post_1 h2 {
+    top: 170px;
+    left: -40px;
+    padding: 30px 70px 30px 200px;
+}
+
+.post_1_text {
+    top: 320px;
+    flex-direction: column;
 }
 
 .clouds_form {
@@ -85,25 +120,6 @@
     z-index: 1;
 
     height: 120px;
-    
-    animation: 5s slide infinite;
-    animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
-}
-
-@keyframes slide {
-    0% {
-        transform: translateX(0px);
-        opacity: 0;
-    }
-
-    30% {
-        opacity: 1;
-    }
-
-    100% {
-        transform: translateX(200px);
-        opacity: 0;
-    }
 }
 
 
@@ -128,26 +144,7 @@
 
 .love_form {
     left: 380px;
-
     height: 70px;
-    animation: 3s slideup infinite;
-    animation-timing-function: ease-out;
-}
-
-@keyframes slideup {
-    0% {
-       /* transform: translate(0px, 0px);*/
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-        
-    }
-    100% {
-        transform: translate(-60px,-60px);
-        height: 90px;
-        opacity: 0;
-    }
 }
 
 .nj1 {
@@ -156,7 +153,7 @@
     left: 300px;
 }
 
-/* ---------- Post 2 ----------- */
+/* ---- POST 2 ---- */
 
 /* Img left post 2 */
 
@@ -187,10 +184,10 @@
     height: 80px;
     top: -40px;
 
-    animation: 5s up1 infinite ease-out;
+    animation: 3s up2 infinite ease-out;
 }
 
-@keyframes up1 {
+@keyframes up2 {
     0% {
         transform: translateY(-20px);
         opacity: 0; 
@@ -243,19 +240,7 @@
 /* Center post 2 */
 
 .post_2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-
-    left: 350px;
     padding-bottom: 0;
-}
-
-#post_it_2 {
-    position: relative;
-    height: 550px;
-    
 }
 
 .post_2 .pin_form {
@@ -263,37 +248,18 @@
 }
 
 .post_2 h2 {
-    position: absolute;
-    text-align: center;
-    white-space: nowrap;
     top: 170px;
     left: 150px;
 
     padding: 30px 300px 30px 50px;
-    background-color: #D6D2EC;
 }
 
 .post_2_text {
-    display: flex;
     left: 70px;
     gap: 10px;
 
-    position: absolute;
     top: 300px;
-    font-size: 0.9em;
     padding-left: 60px;
-
-    cursor: pointer;
-}
-
-.post_2_text input {
-    padding: 0 10px;
-}
-
-.post_2_col {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 .img_post_2_right {
@@ -301,66 +267,24 @@
 }
 
 .stars_background_2 {
-    position: absolute;
     object-fit:contain;
-    height: 700px;
     top: -100px;
     left: 300px;
-
-    opacity: 80%;
-    z-index: -1;
 }
 
-/* Post 3 */
+/* ---- POST 3 ----- */
 
-/* Centre du post */
-
-.post_3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-
-    left: 350px;
-
-}
-
-#post_it_3 {
-    position: relative;
-    height: 550px;
-}
+/* Centre post 3 */
 
 .post_3 h2 {
-    position: absolute;
-    text-align: center;
     top: 170px;
     left: -200px;
-
     padding: 30px 70px 30px 400px;
-    white-space: nowrap;
-    background-color: #D6D2EC;
-}
-
-.post_3_col {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 .post_3_text {
-    display: flex;
     left: 120px;
-    gap: 10px;
-
-    position: absolute;
     top: 300px;
-    font-size: 0.9em;
-
-    cursor: pointer;
-}
-
-.post_3_text input {
-    padding: 0 10px;
 }
 
 .img_post_3_right {
@@ -422,7 +346,7 @@
 }
 
 
-/* Boutton de fin */
+/* --- BOUTON DE FIN ---- */
 
 .submit_post {
     display: flex;
@@ -435,15 +359,10 @@
 }
 
 #last_stars {
-    position: absolute;
     rotate: 180deg;
-    object-fit:cover;
-    height: 700px;
+    object-fit: cover;
     top: -180px;
     left: -200px;
-
-    opacity: 80%;
-    z-index: -1;
 }
 
 #cat_white, #cat_black {
@@ -466,49 +385,16 @@
     top: -50px;
 }
 
-.submit_button input, #button_click {
-    position: absolute;
-}
-
-input {
-    all: unset;  
-
-}
-
 .submit_button input {
+    position: absolute;
     padding: 30px 70px;
-
-    font-family: "Pixel Digivolve";
-    font-size: 2em;
-    text-shadow: #FFFAE9 4px 2px;
-
-    background-color: #96A0FF;
-    border-radius: 15px;
-    box-shadow: #20222D 8px 8px 2px;
-
-	color: inherit;
-	border: none;
-	cursor: pointer;
-	outline: inherit;
-
-    white-space: nowrap;
-}
-
-.submit_button input:hover {
-    background-color: #5863BF;
 }
 
 #button_click {
     height: 60px;
     top: 70px;
     left: 350px;
-
-    animation: 2s up infinite;
-    animation-timing-function:ease;
 }
 
 
-.selected {
-    background-color: #96A0FF;
-}
 

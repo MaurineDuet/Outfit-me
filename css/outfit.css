@@ -1,0 +1,199 @@
+/* ----- GENERAL ----- */
+
+.outfit_section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---- TITRE ---- */
+
+.outfit_title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 200px 0;
+
+}
+
+.outfit_title img {
+    position: absolute;
+    height: 70px;
+    left: 150px;
+    top: 50px;
+}
+
+.outfit_title h2 {
+    position: absolute;
+    text-align: center;
+
+    white-space: nowrap;
+    background-color: #D6D2EC;
+    padding: 30px 300px;
+    z-index: -1;
+
+}
+
+/* ---- ARTICLE ---- */
+
+.outfit_article {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+/* ---- LEFT ---- */
+
+.tape {
+    height: 350px;
+    position: absolute;
+    left: -150px;
+    top: 200px;
+}
+
+.outfit_cloud_1, .outfit_cloud_2, .outfit_cloud_3 {
+    position: absolute;
+    z-index: 1;
+}
+
+.outfit_cloud_1 {
+    height: 80px;
+    left: -100px;
+    top: 700px;
+}
+
+.outfit_cloud_2 {
+    height: 60px;
+    left: 0px;
+    top: 600px;
+}
+
+
+/* ---- POST CENTRAL ---- */
+
+#outfit_background {
+    height: 1000px;
+}
+
+#outfit_pic {
+    height: 700px;
+    position: absolute;
+    top: 150px;
+}
+
+#moon {
+    position: absolute;
+    height: 150px;
+    z-index: 1;
+    right: -150px;
+}
+
+/* ---- RIGHT ---- */
+
+.outfit_stars {
+    opacity: 80%;
+    z-index: -1;
+    height: 700px;
+    position: absolute;
+    top: 150px;
+    right: -500px;
+}
+
+.outfit_cloud_3 {
+    height: 70px;
+    top: 200px;
+    right: 50px;
+}
+
+/* ---- OTHER STYLES ---- */ 
+
+.other_outfits {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.outfit_stars_2, .paper {
+    object-fit: contain;
+}
+
+#outfit_click, .solo_star_1, .solo_star_2, .solo_star_3, .paper, #outfit_stars_2 {
+    position: absolute;
+}
+
+#outfit_stars_2 {
+    top: 50px;
+    left: -250px;
+    height: 400px;
+}
+
+.paper {
+    left: 400px;
+}
+
+.outfit_button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    padding: 100px 0 300px 0;
+}
+
+.outfit_button button {
+    font-family: "Pixel Digivolve";
+    font-size: 1.2em;
+
+    background-color: #96A0FF;
+    border-radius: 15px;
+    box-shadow: #20222D 8px 8px 2px;
+
+	color: inherit;
+	border: none;
+	cursor: pointer;
+	outline: inherit;
+
+    white-space: nowrap;
+
+    padding: 30px 70px;
+}
+
+.solo_star_1 {
+    top: 200px;
+    right: -90px;
+    height: 90px;
+
+    animation: 3s up1 infinite ease-out;
+}
+
+.solo_star_2 {
+    top: 300px;
+    right: -140px;
+    height: 70px;
+
+    animation: 3.5s up1 infinite ease-out;
+}
+
+.solo_star_3 {
+    top: 330px;
+    right: -20px;
+    height: 110px;
+
+    animation: 2.5s up1 infinite ease-out;
+}
+
+#outfit_click {
+    height: 60px;
+    bottom: 260px;
+    left: 200px;
+}
+
+.outfit_button button:hover {
+    color: #D6D2EC;
+}
+
+.outfit_cloud_1 {
+    animation: 4s slide infinite
+}
+
+.outfit_cloud_3 {
+    animation: 4.5s slide infinite
+}

@@ -10,7 +10,7 @@
     src: url("../fonts/Pixel\ Digivolve.otf");
 }
 
-/* General */
+/* ----- GENERAL ----- */
 
 body {
     color: #0A0C18;
@@ -47,7 +47,7 @@ a {
     color: inherit;
 }
 
-/* Header */
+/* ---- HEADER ----- */
 
 header {
     background-image: url("../assets/header/Header\ background.jpg");
@@ -66,7 +66,7 @@ header img {
 }
 
 
-/* Footer */
+/* ---- FOOTER ----- */
 
 footer {
     background-color: #0A0C18;
@@ -151,4 +151,100 @@ footer {
     border-radius: 15px;
 
 }
+
+/* BOUTONS */
+
+.main_button button, .submit_button input {
+    font-family: "Pixel Digivolve";
+    font-size: 2em;
+    text-shadow: #FFFAE9 4px 2px;
+
+    background-color: #96A0FF;
+    border-radius: 15px;
+    box-shadow: #20222D 8px 8px 2px;
+
+	color: inherit;
+	border: none;
+	cursor: pointer;
+	outline: inherit;
+
+    white-space: nowrap;
+}
+
+.main_button button:hover, .submit_button input:hover, .outfit_button button:hover {
+    background-color: #5863BF;
+}
+
+
+/* ANIMATIONS */
+
+/* Souris du bouton */
+
+#click, #button_click, #outfit_click {
+    position: absolute;
+
+    animation: 2s up infinite;
+    animation-timing-function:ease;
+}
+
+@keyframes up {
+    0% {
+        transform: translate(10px, 10px);
+    }
+
+    100% {
+        transform: translateY(-10px, -10px);
+    }
+}
+
+/* Coeur qui part de la photo en haut à droite */
+
+
+.love_form, .love_index, .love_outfit {
+    animation: 3s slideup infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes slideup {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        
+    }
+    100% {
+        transform: translate(-60px,-60px);
+        height: 90px;
+        opacity: 0;
+    }
+}
+
+/* Nuages */
+
+
+.clouds_index, .clouds_form, .outfit_cloud_1, .outfit_cloud_2, .outfit_cloud_3 {  
+    animation: 5s slide infinite;
+    animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+}
+
+
+
+
 
