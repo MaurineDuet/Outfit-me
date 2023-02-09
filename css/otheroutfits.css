@@ -1,0 +1,200 @@
+
+/* GENERAL*/
+
+.others_stars_background_1, .others_stars_background_2, .others_stars_background_3 {
+    position: absolute;
+    z-index: -1;
+    height: 700px;
+}
+
+.outfit_line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 150px;
+}
+
+.outfit_line_background {
+    height: 100px;
+    width: 1200px;
+}
+
+.outfit_pics {
+    display: flex;
+    gap: 50px;
+}
+
+.outfit_pics img {
+    height: 450px;
+    margin-top: -50px;
+}
+
+
+/* TITRE */
+
+.other_outfit_title img {
+    position: absolute;
+}
+
+.other_cloud_1 {
+    height: 90px;
+    left: 30px;
+    top: 95px;
+}
+
+.other_cloud_2 {
+    height: 60px;
+    left: 150px;
+    top: 10px;
+
+    animation: 4s slide infinite;
+    animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.other_cherry_1 {
+    bottom: 70px;
+    height: 70px;
+    right: 400px;
+
+    animation: 2s frames infinite;
+}
+
+@keyframes frames {
+    from {
+        transform: rotate(-20deg)
+    }
+
+    to {
+        transform: rotate(20deg)
+    }
+}
+
+/* Les étoiles */
+
+.solo_stars img {
+    rotate: -20deg;
+}
+
+.star_1 {
+    height: 40px;
+    right: 50px;
+    top: 60px;
+
+    animation: 3s up1 infinite ease-in-out
+}
+
+.star_2 {
+    height: 50px;
+    right: 100px;
+    top: 30px;
+
+    animation: 4s up1 infinite ease-in-out
+}
+
+.star_3 {
+    height: 60px;
+    right: 120px;
+    top: 90px;
+
+    animation: 2s up1 infinite ease-in-out
+}
+
+.star_4 {
+    height: 40px;
+    right: 90px;
+    top: 190px;
+
+    animation: 2.5s up1 infinite ease-in-out
+}
+
+.star_5 {
+    height: 70px;
+    right: 20px;
+    top: 125px;
+
+    animation: 3s up1 infinite ease-in-out
+}
+
+
+/* LINE OUTFIT 1 */
+
+.others_stars_background_1 {
+    left: 50px;
+}
+
+/* LINE OUTFIT 2 */
+
+.others_stars_background_2 {
+    right: 50px;
+    rotate: 180deg;
+    top: 50px;
+}
+
+/* LINE OUTFIT 3 */
+
+.duck {
+    position: absolute;
+    height: 150px;
+    top: -130px;
+    left: 250px;
+}
+
+/* ANOTHER OUTFIT */
+
+.another_outfit {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 50px 0 250px 0;
+}
+
+.another_outfit img {
+    position: absolute;
+}
+
+.try_again {
+    position: relative;
+    padding: 20px 70px;
+}
+
+.other_click {
+    height: 60px;
+    left: 680px;
+    top: 100px;
+}
+
+.others_stars_background_3 {
+    left: -480px;
+    top: -50px;
+}
+
+.other_cherry_2 {
+    height: 80px;
+    left: 220px;
+    top: 260px;
+}
+
+.other_termo {
+    height: 120px;
+    top: -30px;
+    left: 310px;
+}
+
+.other_paper {
+    z-index: -1;
+    top: -100px;
+    right: -300px;
+}
+
+.other_potions {
+    height: 280px;
+    right: 0px;
+    top: 70px;
+}
+
+.other_moon {
+    height: 150px;
+    right: 130px;
+    top: 0px;
+}

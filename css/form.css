@@ -109,7 +109,7 @@ input {
 }
 
 .post_1_text {
-    top: 320px;
+    top: 300px;
     flex-direction: column;
 }
 
@@ -258,7 +258,7 @@ input {
     left: 70px;
     gap: 10px;
 
-    top: 300px;
+    top: 280px;
     padding-left: 60px;
 }
 

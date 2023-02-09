@@ -154,7 +154,7 @@ footer {
 
 /* BOUTONS */
 
-.main_button button, .submit_button input {
+.main_button button, .submit_button input, .try_again {
     font-family: "Pixel Digivolve";
     font-size: 2em;
     text-shadow: #FFFAE9 4px 2px;
@@ -171,7 +171,7 @@ footer {
     white-space: nowrap;
 }
 
-.main_button button:hover, .submit_button input:hover, .outfit_button button:hover {
+.main_button button:hover, .submit_button input:hover, .outfit_button button:hover, .try_again:hover {
     background-color: #5863BF;
 }
 
@@ -180,7 +180,7 @@ footer {
 
 /* Souris du bouton */
 
-#click, #button_click, #outfit_click {
+#click, #button_click, #outfit_click, .other_click {
     position: absolute;
 
     animation: 2s up infinite;
@@ -223,7 +223,7 @@ footer {
 /* Nuages */
 
 
-.clouds_index, .clouds_form, .outfit_cloud_1, .outfit_cloud_2, .outfit_cloud_3 {  
+.clouds_index, .clouds_form, .outfit_cloud_1, .outfit_cloud_2, .outfit_cloud_3, .other_cloud_1 {  
     animation: 5s slide infinite;
     animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
 }

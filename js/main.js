@@ -1,12 +1,15 @@
-// Audio button play //
+const playStart = new Audio()
+playStart.src = "../assets/sounds/play.mp3"
+
+const hover = new Audio()
+hover.src = "../assets/sounds/hover2.mp3"
 
 function pauseAndReset (sound) {
     sound.pause()
     sound.currentTime = 0
 }
 
-const hover = new Audio()
-hover.src = "../assets/sounds/hover2.mp3"
+// Audio button play hover //
 
 const playBtn = document.querySelector("[data-play-btn]")
 
@@ -26,9 +29,6 @@ if (playBtn) {
 
 if (playBtn) {
     
-    const playStart = new Audio()
-    playStart.src = "../assets/sounds/play.mp3"
-    
     playBtn.addEventListener("click", () => {
         pauseAndReset(hover)
         playStart.play()
@@ -37,6 +37,29 @@ if (playBtn) {
             document.location = 'form.html'
         }, 1500)
     })
+    
+}
+
+// Audio other button on click //
+
+
+const otherBtn = document.querySelector("[data-other-btn]")
+
+if (otherBtn) {
+    
+    otherBtn.addEventListener("mouseover", () => {
+        hover.play()
+    })
+    
+    otherBtn.addEventListener("mouseleave", () => {
+        pauseAndReset(hover)
+    })
+}
+
+if(otherBtn) {
+
+    otherBtn.addEventListener("click", () => {
+    document.location = 'otheroutfits.html'})
     
 }
 

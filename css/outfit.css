@@ -7,7 +7,7 @@
 
 /* ---- TITRE ---- */
 
-.outfit_title {
+.outfit_title, .other_outfit_title {
     position: relative;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@
     top: 50px;
 }
 
-.outfit_title h2 {
+.outfit_title h2, .other_outfit_title h2 {
     position: absolute;
     text-align: center;
 
