@@ -56,18 +56,6 @@
     bottom: 70px;
     height: 70px;
     right: 400px;
-
-    animation: 2s frames infinite;
-}
-
-@keyframes frames {
-    from {
-        transform: rotate(-20deg)
-    }
-
-    to {
-        transform: rotate(20deg)
-    }
 }
 
 /* Les étoiles */

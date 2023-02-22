@@ -1,20 +1,14 @@
-@media screen and (max-width:1399px) {
+@media screen and (max-width:999px) {
 
     /* ----- GENERAL ----- */
 
 body {
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 
 .container {
-    width: 1000px;
-}
-
-/* BOUTONS */
-
-.main_button button, .submit_button input, .try_again {
-    font-size: 1.5em;
+    width: 800px;
 }
 
 /* INDEX */
@@ -22,11 +16,12 @@ body {
 /* ---- LEFT ----- */
 
 .stars_background_index {
-    right: 0px;
+    left: -350px;
+    height: 600px;
 }
 
 #left_pic {
-    height: 270px;
+    height: 200px;
 }
 
 /* ---- MAIN POST ---- */
@@ -34,32 +29,31 @@ body {
 /*Général*/
 
 .main_post {
-    top: 80px;
-    left: -500px;
+    top: 70px;
+    left: -460px;
 }
 
 #main_img {
-    height: 450px;
+    height: 410px;
 }
 
 /*Texte*/
 
 .title {
-    top: 180px;
-    left: 120px;
+    top: 165px;
+    left: 110px;
 }
 
 .pin_index {
-    height: 25px;
     top: -50px;
-    left: 250px;
+    left: 200px;
 }
 
 /*Button*/
 
 .main_button {
-    bottom: 400px;
-    left: 170px;
+    bottom: 320px;
+    left: 145px;
 }
 
 #click {
@@ -71,24 +65,24 @@ body {
 /* ---- RIGHT ----- */
 
 .right_pic_index {
-    height: 400px;
+    height: 300px;
     left: -520px;
     top: -50px;
 }
 
 .love_index {
     height: 40px;
-    left: -430px;
+    left: -480px;
 }
 
 .clouds_index {
-    height: 90px;
+    height: 80px;
     left: -550px;
 }
 
 .korean_love {
-    height: 400px;
-    top: -240px;
+    height: 300px;
+    top: -180px;
     left: -530px;
 }
 
