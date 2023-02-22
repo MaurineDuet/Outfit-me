@@ -1,0 +1,299 @@
+@media screen and (max-width:1399px) {
+
+    /* ----- GENERAL ----- */
+
+body {
+    font-size: 0.7em;
+}
+
+
+.container {
+    width: 1000px;
+}
+
+/* BOUTONS */
+
+.main_button button, .submit_button input, .try_again {
+    font-size: 1.5em;
+}
+
+/* INDEX */
+
+/* ---- LEFT ----- */
+
+.stars_background_index {
+    right: 0px;
+}
+
+#left_pic {
+    height: 270px;
+}
+
+/* ---- MAIN POST ---- */
+
+/*Général*/
+
+.main_post {
+    top: 80px;
+    left: -500px;
+}
+
+#main_img {
+    height: 450px;
+}
+
+/*Texte*/
+
+.title {
+    top: 180px;
+    left: 120px;
+}
+
+.pin_index {
+    height: 25px;
+    top: -50px;
+    left: 250px;
+}
+
+/*Button*/
+
+.main_button {
+    bottom: 400px;
+    left: 170px;
+}
+
+#click {
+    height: 40px;
+    bottom: -20px;
+    left: 140px;
+}
+
+/* ---- RIGHT ----- */
+
+.right_pic_index {
+    height: 400px;
+    left: -520px;
+    top: -50px;
+}
+
+.love_index {
+    height: 40px;
+    left: -430px;
+}
+
+.clouds_index {
+    height: 90px;
+    left: -550px;
+}
+
+.korean_love {
+    height: 400px;
+    top: -240px;
+    left: -530px;
+}
+
+/* ---- PAGE DU FORMULAIRE ----- */
+
+/* ---- COMMUN ----- */
+
+/* Base du post */
+
+.post_1, .post_2, .post_3 {
+    left: 350px;
+}
+
+#post_it_1, #post_it_2, #post_it_3 {
+    height: 450px;
+}
+
+.pin_form {
+    top: 90px;
+    left: 350px;
+
+    height: 25px;
+}
+
+.post_1_text, .post_2_text, .post_3_text {
+    gap: 10px;
+}
+
+.post_2_col, .post_3_col {
+    gap: 0px;
+}
+
+/* ---- Image des étoiles ----- */
+
+#last_stars, .stars_background_2 {
+    height: 500px;
+}
+
+
+/* ---- POST 1 ----- */
+
+/* Centre du post */
+
+.post_1 {
+    padding-bottom: 30px;
+}
+
+.post_1 h2 {
+    top: 140px;
+    padding: 25px 30px 25px 200px;
+}
+
+.post_1_text {
+    top: 230px;
+}
+
+.clouds_form {
+    left: -170px;
+    top: 250px;
+    height: 100px;
+}
+
+
+/* Images du post */
+
+.right_pic_form {
+    left: 320px;
+    height: 400px;
+    top: -50px;
+}
+
+.love_form {
+    left: 400px;
+    height: 40px;
+}
+
+.nj1 {
+    height: 400px;
+}
+
+/* ---- POST 2 ---- */
+
+/* Img left post 2 */
+
+.alice {
+    height: 450px;
+    top: 150px;
+    left: 0px;
+}
+
+.heart1 {
+    left: 160px;
+    height: 70px;
+    top: -40px;
+}
+
+.heart2 {
+    left: 180px;
+    height: 45px;
+    top: 100px;
+}
+
+.heart3 {
+    height: 30px;
+    left: 260px;
+    top: 60px;
+}
+
+/* Center post 2 */
+
+.post_2 h2 {
+    top: 130px;
+    left: 130px;
+    padding: 25px 300px 25px 50px;
+}
+
+.post_2_text {
+    left: 20px;
+    gap: 0px;
+    top: 220px;
+}
+
+/* ---- POST 3 ----- */
+
+/* Centre post 3 */
+
+.post_3 h2 {
+    top: 125px;
+    left: -200px;
+    padding: 25px 70px 25px 400px;
+}
+
+.post_3_text {
+    left: 85px;
+    top: 240px;
+    gap: 0;
+}
+
+.img_post_3_right {
+    left: 200px;
+}
+
+#paper {
+    top: -20px;
+}
+
+#korean_fingers {
+    top: 200px;
+    height: 120px;
+}
+
+#korean_heart {
+    top: 150px;
+}
+
+#NJ2 {
+    height: 350px;
+    left: 80px;
+}
+
+
+/* --- BOUTON DE FIN ---- */
+
+.submit_post {
+    padding-bottom: 100px;
+}
+
+#last_stars {
+    top: -220px;
+    left: -130px;
+}
+
+#cat_white, #cat_black {
+    height: 150px;
+}
+
+#cat_white {
+    top: -500px;
+    left: 140px;
+}
+
+#cat_black {
+    top: -370px;
+    left: 240px;
+}
+
+.submit_button {
+    transform: translateX(calc(500px - 65px));
+    top: -220px;
+}
+
+.submit_button input {
+    padding: 30px 70px;
+}
+
+#button_click {
+    height: 40px;
+    top: 55px;
+    left: 300px;
+}
+
+
+
+
+
+
+
+}
