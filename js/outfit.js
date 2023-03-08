@@ -2,8 +2,8 @@ class Outfit {
     constructor(jsonOutfit) {
         this.id = jsonOutfit.id
         this.color = jsonOutfit.color
-        this.img = jsonWork.imageUrl
-        this.weather = jsonWork.weather
+        this.img = jsonOutfit.imageUrl
+        this.weather = jsonOutfit.weather
         this.style = jsonOutfit.style
     }
 }
@@ -11,14 +11,24 @@ class Outfit {
 await fetch("db/db.json")
     .then(data => data.json())
     .then(jsonListOutfits => {
+        console.log(jsonListOutfits)
 
-        for (let jsonOutfit of jsonListOutfits) {
+        for (const jsonOutfit of jsonListOutfits) {
             let outfit = new Outfit(jsonOutfit)
-            document.querySelector(".outfit_article").append(createOutfit(outfit, false))
+            console.log(jsonOutfit)
+            document.querySelector(".outfit_article").innerHTML =  
+           `<figure data-outfit-id="${outfit.id}" data-outfit-color="${outfit.color}" data-outfit-weather="${outfit.weather} data-outfit-style="${outfit.style}">
+           <div>
+               <img src="${outfit.img}">
+           </div>
+       </figure>`
+
         }
     })
 
 
+
+    /*
     function createOutfit(outfit, areWeInOtherOutfit = true) {
         const newOutfit = document.createElement("figure")
         if (areWeInOtherOutfit) {
@@ -52,3 +62,6 @@ await fetch("db/db.json")
     
         return newOutfit
     }
+    
+
+    */
