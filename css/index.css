@@ -16,34 +16,19 @@
 .stars_background_index {
     position: relative;
     left: -250px;
-    object-fit:contain;
-    height: 700px;
-
-    opacity: 80%;
-}
-
-
-#left_pic, #no_comment {
-    position: absolute;
+    object-fit: contain;
 }
 
 #left_pic {
+    position: absolute;
     height: 350px;
     bottom: -1px;
     left: 20px;
 }
 
-#no_comment {
-    display: none;
-    height: 70px;
+/* ----- MAIN POST ----- */
 
-    bottom: 240px;
-    left: 270px;
-}
-
-/* ---- MAIN POST ---- */
-
-/*Général*/
+/* Général */
 
 .main_post {
     left: -350px;
@@ -54,7 +39,7 @@
     height: 550px;
 }
 
-/*Texte*/
+/* Texte */
 
 .title {
     display: flex;
@@ -75,7 +60,7 @@
 }
 
 
-/*Button*/
+/* Button */
 
 .main_button {
     display: flex;
@@ -94,13 +79,10 @@
     left: 160px;
 }
 
-
-
-/* ---- RIGHT ----- */
+/* ----- RIGHT ----- */
 
 .right {
     justify-content: space-between;
-
 }
 
 .right_1, .right_2 {

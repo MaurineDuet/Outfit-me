@@ -1,6 +1,6 @@
 @media screen and (max-width:999px) {
 
-    /* ----- GENERAL ----- */
+/* ----- GENERAL ----- */
 
 body {
     font-size: 0.6em;
@@ -11,13 +11,17 @@ body {
     width: 700px;
 }
 
+.container2 {
+    width: 700px;
+}
+
 main {
     min-height: 60vh;
 }
 
-/* INDEX */
+/* ----- INDEX ----- */
 
-/* ---- LEFT ----- */
+/* Left */
 
 .stars_background_index {
     left: -400px;
@@ -29,9 +33,9 @@ main {
     left: 20px;
 }
 
-/* ---- MAIN POST ---- */
+/* Main post */
 
-/*Général*/
+/* Général */
 
 .main_post {
     top: 70px;
@@ -42,7 +46,7 @@ main {
     height: 410px;
 }
 
-/*Texte*/
+/* Texte */
 
 .title {
     top: 165px;
@@ -54,7 +58,7 @@ main {
     left: 200px;
 }
 
-/*Button*/
+/* Button */
 
 .main_button {
     bottom: 320px;
@@ -67,7 +71,7 @@ main {
     left: 140px;
 }
 
-/* ---- RIGHT ----- */
+/* Right */
 
 .right_pic_index {
     height: 300px;
@@ -91,9 +95,9 @@ main {
     left: -600px;
 }
 
-/* ---- PAGE DU FORMULAIRE ----- */
+/* ----- PAGE DU FORMULAIRE ----- */
 
-/* ---- COMMUN ----- */
+/* COMMUN */
 
 /* Base du post */
 
@@ -120,14 +124,14 @@ main {
     gap: 0px;
 }
 
-/* ---- Image des étoiles ----- */
+/* Image des étoiles */
 
 #last_stars, .stars_background_2 {
     height: 500px;
 }
 
 
-/* ---- POST 1 ----- */
+/* POST 1 */
 
 /* Centre du post */
 
@@ -150,7 +154,6 @@ main {
     height: 80px;
 }
 
-
 /* Images du post */
 
 .right_pic_form {
@@ -169,7 +172,7 @@ main {
     left: 330px;
 }
 
-/* ---- POST 2 ---- */
+/* POST 2 */
 
 /* Img left post 2 */
 
@@ -211,7 +214,7 @@ main {
     top: 200px;
 }
 
-/* ---- POST 3 ----- */
+/* POST 3 */
 
 /* Centre post 3 */
 
@@ -252,7 +255,7 @@ main {
 }
 
 
-/* --- BOUTON DE FIN ---- */
+/* BOUTON DE FIN */
 
 .submit_post {
     padding-bottom: 50px;
@@ -292,7 +295,7 @@ main {
     left: 300px;
 }
 
-/* LOADING PAGE */
+/* ----- LOADING PAGE ----- */
 
 .loading_post {
     gap: 30px;
@@ -307,9 +310,13 @@ main {
 }
 
 
-/* OUTFIT PAGE */
+/* ----- OUTFIT PAGE ----- */
 
-/* ---- TITRE ---- */
+/* TITRE */
+
+.outfit_title img {
+    left: 150px;
+}
 
 .outfit_title, .other_outfit_title {
     padding: 100px 0 150px 0;
@@ -319,28 +326,29 @@ main {
     padding: 25px 300px;
 }
 
-/* ---- ARTICLE ---- */
+/* ARTICLE*/
 
-/* ---- LEFT ---- */
+/* Left */
 
 .tape {
     height: 250px;
-    left: -100px;
+    left: -50px;
     top: 150px;
 }
 
 .outfit_cloud_1 {
     height: 70px;
     top: 600px;
+    left: -50px;
 }
 
 .outfit_cloud_2 {
     height: 50px;
-    left: -50px;
+    left: -100px;
     top: 500px;
 }
 
-/* ---- POST CENTRAL ---- */
+/* Post central */
 
 #outfit_background {
     height: 800px;
@@ -355,10 +363,10 @@ main {
 #moon {
     top: 50px;
     height: 100px;
-    right: -120px;
+    right: -50px;
 }
 
-/* ---- RIGHT ---- */
+/* Right */
 
 .outfit_stars {
     height: 500px;
@@ -369,7 +377,7 @@ main {
     height: 55px;
 }
 
-/* ---- OTHER STYLES ---- */ 
+/* OTHER STYLES */ 
 
 #outfit_stars_2 {
     top: 0px;
@@ -423,7 +431,7 @@ main {
     animation: 4.5s slide infinite
 }
 
-/*OTHER OUFITS */
+/* ----- OTHER OUFITS ----- */
 
 /* GENERAL*/
 
@@ -453,20 +461,20 @@ main {
 
 .other_cloud_1 {
     height: 50px;
-    left: 200px;
+    left: 50px;
     top: 70px;
 }
 
 .other_cloud_2 {
     height: 35px;
-    left: 260px;
+    left: 0px;
     top: 10px;
 }
 
 .other_cherry_1 {
     bottom: 50px;
     height: 50px;
-    right: 380px;
+    right: 220px;
 }
 
 /* Les étoiles */
@@ -474,25 +482,25 @@ main {
 
 .star_1 {
     height: 40px;
-    right: 240px;
+    right: 40px;
     top: 40px;
 }
 
 .star_2 {
     height: 50px;
-    right: 280px;
+    right: 80px;
     top: 10px;
 }
 
 .star_3 {
     height: 60px;
-    right: 300px;
+    right: 150px;
     top: 70px;
 }
 
 .star_4 {
     height: 40px;
-    right: 170px;
+    right: 20px;
     top: 170px;
 }
 
@@ -506,13 +514,13 @@ main {
 /* LINE OUTFIT 1 */
 
 .others_stars_background_1 {
-    left: 80px;
+    left: -80px;
 }
 
 /* LINE OUTFIT 2 */
 
 .others_stars_background_2 {
-    right: 80px;
+    right: -80px;
 }
 
 /* LINE OUTFIT 3 */
@@ -520,7 +528,7 @@ main {
 .duck {
     height: 100px;
     top: -85px;
-    left: 300px;
+    left: 100px;
 }
 
 /* ANOTHER OUTFIT */
@@ -532,12 +540,12 @@ main {
 
 .other_click {
     height: 40px;
-    left: 670px;
+    left: 410px;
     top: 40px;
 }
 
 .others_stars_background_3 {
-    left: -100px;
+    left: -300px;
     top: -50px;
 }
 
@@ -547,19 +555,19 @@ main {
 
 .other_paper {
     top: -100px;
-    right: 0px;
+    right: -250px;
     height: 500px;
 }
 
 .other_potions {
     height: 150px;
-    right: 240px;
+    right: -10px;
     top: 50px;
 }
 
 .other_moon {
     height: 100px;
-    right: 280px;
+    right: 30px;
     top: -20px;
 }
 

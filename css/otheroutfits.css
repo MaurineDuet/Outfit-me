@@ -1,11 +1,5 @@
 
-/* GENERAL*/
-
-.others_stars_background_1, .others_stars_background_2, .others_stars_background_3 {
-    position: absolute;
-    z-index: -1;
-    height: 700px;
-}
+/* ----- GENERAL ----- */
 
 .outfit_line {
     display: flex;
@@ -31,7 +25,7 @@
 }
 
 
-/* TITRE */
+/* ----- TITRE ----- */
 
 .other_outfit_title img {
     position: absolute;
@@ -105,13 +99,13 @@
 }
 
 
-/* LINE OUTFIT 1 */
+/* ----- LINE OUTFIT 1 ----- */
 
 .others_stars_background_1 {
     left: 50px;
 }
 
-/* LINE OUTFIT 2 */
+/* ----- LINE OUTFIT 2-----  */
 
 .others_stars_background_2 {
     right: 50px;
@@ -119,7 +113,7 @@
     top: 50px;
 }
 
-/* LINE OUTFIT 3 */
+/* ----- LINE OUTFIT 3 ----- */
 
 .duck {
     position: absolute;
@@ -128,7 +122,7 @@
     left: 250px;
 }
 
-/* ANOTHER OUTFIT */
+/* ----- ANOTHER OUTFIT ----- */
 
 .another_outfit {
     display: flex;
@@ -148,18 +142,18 @@
 
 .other_click {
     height: 60px;
-    left: 680px;
+    right: 570px;
     top: 100px;
 }
 
 .others_stars_background_3 {
-    left: -480px;
+    left: -380px;
     top: -50px;
 }
 
 .other_cherry_2 {
     height: 80px;
-    left: 220px;
+    left: 320px;
     top: 260px;
 }
 

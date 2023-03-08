@@ -1,4 +1,4 @@
-/* Fonts */
+/* ----- INSTALLATION DES FONTS ----- */
 
 @font-face {
     font-family: "Kemco";
@@ -42,6 +42,14 @@ main {
     overflow-x: visible;
 }
 
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 1400px;
+    overflow-x: visible;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -70,7 +78,7 @@ header img {
 }
 
 
-/* ---- FOOTER ----- */
+/* ----- FOOTER ----- */
 
 footer {
     background-color: #0A0C18;
@@ -79,8 +87,6 @@ footer {
 
     padding: 50px 100px;
 }
-
-/* Colonne de gauche */
 
 .infos {
     display: flex;
@@ -157,7 +163,7 @@ footer {
 
 }
 
-/* BOUTONS */
+/* ----- BOUTONS ----- */
 
 .main_button button,
 .submit_button input,
@@ -186,7 +192,7 @@ footer {
 }
 
 
-/* ANIMATIONS */
+/* ----- ANIMATIONS ----- */
 
 /* Souris du bouton */
 
@@ -264,4 +270,16 @@ footer {
         transform: translateX(200px);
         opacity: 0;
     }
+}
+
+/* ----- STARS BACKGROUND ----- */
+
+.stars_background_index, #last_stars, .stars_background_2, .outfit_stars, .others_stars_background_1, .others_stars_background_2, .others_stars_background_3 {
+    height: 700px;
+    opacity: 80%;
+    z-index: -1;
+}
+
+#last_stars, .stars_background_2, .outfit_stars, .others_stars_background_1, .others_stars_background_2, .others_stars_background_3 {
+    position: absolute;
 }

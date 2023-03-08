@@ -1,0 +1,463 @@
+@media screen and (max-width:699px) {
+
+    /* ----- GENERAL ----- */
+    
+    body {
+        font-size: 0.6em;
+    }
+    
+    .container {
+        width: 350px;
+    }
+    
+    .container2 {
+        width: 350px;
+    }
+    
+    main {
+        min-height: 60vh;
+    }
+
+    header {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .infos, .footer_right {
+        align-items: center;
+    }
+
+    .infos_text p {
+        padding: 15px 30px;
+    }
+
+    .footer_right img {
+        height: 20px;
+    }
+    
+    /* ----- INDEX ----- */
+    
+    .left, .right {
+        display: none;
+    }
+
+    /* Main post */
+    
+    /* Général */
+    
+    .main_post {
+        top: 40px;
+        left: -25px;
+    }
+    
+    #main_img {
+        height: 350px;
+    }
+    
+    /* Texte */
+    
+    .title {
+        top: 140px;
+        left: 80px;
+    }
+    
+    .pin_index {
+        top: -50px;
+        left: 200px;
+    }
+    
+    /* Button */
+    
+    .main_button {
+        bottom: 110px;
+        left: 115px;
+    }
+    
+    #click {
+        height: 40px;
+        bottom: -20px;
+        left: 140px;
+    }
+    
+    /* ----- PAGE DU FORMULAIRE ----- */
+    
+    /* COMMUN */
+    
+    /* Base du post */
+
+    .post {
+        padding-bottom: 40px;
+    }
+    
+    .post_1, .post_2, .post_3 {
+        left: 0px;
+    }
+    
+    #post_it_1, #post_it_2, #post_it_3 {
+        height: 350px;
+    }
+    
+    .pin_form {
+        top: 60px;
+        left: 250px;
+    
+        height: 25px;
+    }
+    
+    .post_1_text, .post_2_text, .post_3_text {
+        gap: 5px;
+    }
+
+    .item {
+        padding: 10px 5px;
+    }
+    
+    .post_2_col, .post_3_col {
+        gap: 0px;
+    }
+
+    .selector {
+        display: none;
+    }
+    
+    /* Image des étoiles */
+    
+    #last_stars, .stars_background_2 {
+        display: none;
+    }
+    
+    
+    /* POST 1 */
+    
+    /* Centre du post */
+    
+    .post_1 {
+        padding-bottom: 30px;
+    }
+    
+    .post_1 h2 {
+        top: 100px;
+        padding: 25px 30px 25px 200px;
+    }
+    
+    .post_1_text {
+        top: 168px;
+    }
+    
+    .clouds_form {
+        display: none;
+    }
+    
+    /* Images du post */
+    
+    .img_post_1 {
+        display: none;
+    }
+    
+    /* POST 2 */
+    
+    /* Img left post 2 */
+
+    .img_post_2_left, .img_post_2_right {
+        display: none;
+    }
+    /* Center post 2 */
+    
+    .post_2 h2 {
+        top: 90px;
+        left: 100px;
+        padding: 25px 300px 25px 50px;
+    }
+    
+    .post_2_text {
+        left: 15px;
+        gap: 0px;
+        top: 170px;
+    }
+    
+    /* POST 3 */
+    
+    /* Centre post 3 */
+
+    .post_3 {
+        padding-bottom: 35px;
+    }
+    
+    .post_3 h2 {
+        top: 115px;
+        left: -280px;
+        padding: 25px 70px 25px 400px;
+    }
+    
+    .post_3_text {
+        left: 70px;
+        top: 195px;
+        gap: 0;
+    }
+    
+    .img_post_3_right {
+        display: none;
+    }
+    
+    /* BOUTON DE FIN */
+    
+    .submit_post {
+        padding-bottom: 200px;
+    }
+    
+    #cat_white, #cat_black {
+        display: none;
+    }
+    
+    .submit_button {
+        transform: translateX(60px);
+        top: 20px;
+    }
+    
+    .submit_button input {
+        padding: 20px 30px;
+    }
+    
+    #button_click {
+        height: 40px;
+        top: 45px;
+        left: 150px;
+    }
+    
+    /* ----- LOADING PAGE ----- */
+    
+    .loading_post {
+        gap: 30px;
+    }
+    
+    .loading_post p {
+        font-size: 1em;
+    }
+    
+    #loading {
+        height: 80px;
+    }
+    
+    
+    /* ----- OUTFIT PAGE ----- */
+    
+    /* TITRE */
+    
+    .outfit_title img {
+        display: none;
+    }
+    
+    .outfit_title {
+        padding: 80px 0 130px 0;
+    }
+    
+    .outfit_title h2, .other_outfit_title h2 {
+        padding: 25px 300px;
+    }
+    
+    /* ARTICLE*/
+    
+    /* Left */
+    
+    .tape {
+        display: none;
+    }
+    
+    .outfit_cloud_1 {
+        display: none;
+    }
+    
+    .outfit_cloud_2 {
+        display: none;
+    }
+    
+    /* Post central */
+    
+    #outfit_background {
+        height: 500px;
+    }
+    
+    #outfit_pic {
+        height: 550px;
+        top: 120px;
+        left: 135px;
+    }
+    
+    #moon {
+        display: none;
+    }
+    
+    /* Right */
+    
+    .outfit_stars {
+        display: none;
+    }
+    
+    .outfit_cloud_3 {
+        display: none;
+    }
+    
+    /* OTHER STYLES */ 
+    
+    #outfit_stars_2 {
+        display: none;
+    }
+    
+    .paper {
+        display: none;
+    }
+    
+    .outfit_button {
+        padding: 80px 0 130px 0;
+    }
+    
+    .solo_star_1 {
+        display: none;
+    }
+    
+    .solo_star_2 {
+        display: none;
+    }
+    
+    .solo_star_3 {
+        display: none;
+    }
+    
+    #outfit_click {
+        height: 50px;
+        bottom: 100px;
+        left: 200px;
+    }
+    
+    .outfit_button button:hover {
+        color: #D6D2EC;
+    }
+
+    /* ----- OTHER OUFITS ----- */
+    
+    /* GENERAL*/
+
+    .other_outfit_title {
+        padding: 0 0 130px 0;
+    }
+    
+    .others_stars_background_1, .others_stars_background_2, .others_stars_background_3 {
+        display: none;
+    }
+    
+    .outfit_line {
+        padding-bottom: 20px;
+    }
+    
+    .outfit_line_background {
+        display: none;
+    }
+    
+    .outfit_pics {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .outfit_pics img {
+        height: 340px;
+        margin-top: 0px;
+    }
+    
+    
+    /* TITRE */
+    
+    .other_cloud_1 {
+        display: none;
+    }
+    
+    .other_cloud_2 {
+        display: none;
+    }
+    
+    .other_cherry_1 {
+        display: none;
+    }
+    
+    /* Les étoiles */
+    
+    
+    .star_1 {
+        display: none;
+    }
+    
+    .star_2 {
+        display: none;
+    }
+    
+    .star_3 {
+        display: none;
+    }
+    
+    .star_4 {
+        display: none;
+    }
+    
+    .star_5 {
+        display: none;
+    }
+    
+    
+    /* LINE OUTFIT 1 */
+    
+    .others_stars_background_1 {
+        display: none;
+    }
+    
+    /* LINE OUTFIT 2 */
+    
+    .others_stars_background_2 {
+        display: none;
+    }
+    
+    /* LINE OUTFIT 3 */
+    
+    .duck {
+        display: none;
+    }
+    
+    /* ANOTHER OUTFIT */
+    
+    .another_outfit {
+        padding: 80px 0 150px 0;
+    }
+    
+    
+    .other_click {
+        height: 40px;
+        left: 230px;
+        top: 120px;
+    }
+    
+    .others_stars_background_3 {
+        display: none;
+    }
+    
+    .other_cherry_2 {
+        display: none;
+    }
+    
+    .other_paper {
+        display: none;
+    }
+    
+    .other_potions {
+        display: none;
+    }
+    
+    .other_moon {
+        display: none;
+    }
+    
+    
+    }

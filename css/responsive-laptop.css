@@ -1,6 +1,6 @@
 @media screen and (max-width:1399px) {
 
-    /* ----- GENERAL ----- */
+/* ----- GENERAL ----- */
 
 body {
     font-size: 0.7em;
@@ -11,15 +11,19 @@ body {
     width: 1000px;
 }
 
+.container2 {
+    width: 1000px;
+}
+
 /* BOUTONS */
 
 .main_button button, .submit_button input, .try_again {
     font-size: 1.5em;
 }
 
-/* INDEX */
+/* ----- INDEX ----- */
 
-/* ---- LEFT ----- */
+/* LEFT */
 
 .stars_background_index {
     right: 0px;
@@ -29,9 +33,9 @@ body {
     height: 270px;
 }
 
-/* ---- MAIN POST ---- */
+/* MAIN POST */
 
-/*Général*/
+/* Général */
 
 .main_post {
     top: 80px;
@@ -42,7 +46,7 @@ body {
     height: 450px;
 }
 
-/*Texte*/
+/* Texte */
 
 .title {
     top: 180px;
@@ -55,7 +59,7 @@ body {
     left: 250px;
 }
 
-/*Button*/
+/* Button */
 
 .main_button {
     bottom: 400px;
@@ -68,7 +72,7 @@ body {
     left: 140px;
 }
 
-/* ---- RIGHT ----- */
+/* RIGHT */
 
 .right_pic_index {
     height: 400px;
@@ -94,7 +98,7 @@ body {
 
 /* ---- PAGE DU FORMULAIRE ----- */
 
-/* ---- COMMUN ----- */
+/* COMMUN */
 
 /* Base du post */
 
@@ -128,7 +132,7 @@ body {
 }
 
 
-/* ---- POST 1 ----- */
+/* POST 1 */
 
 /* Centre du post */
 
@@ -169,7 +173,7 @@ body {
     height: 400px;
 }
 
-/* ---- POST 2 ---- */
+/* POST 2 */
 
 /* Img left post 2 */
 
@@ -211,7 +215,7 @@ body {
     top: 220px;
 }
 
-/* ---- POST 3 ----- */
+/* POST 3 */
 
 /* Centre post 3 */
 
@@ -250,7 +254,7 @@ body {
 }
 
 
-/* --- BOUTON DE FIN ---- */
+/* BOUTON DE FIN */
 
 .submit_post {
     padding-bottom: 50px;
@@ -290,7 +294,7 @@ body {
     left: 300px;
 }
 
-/* LOADING PAGE */
+/* ----- LOADING PAGE ----- */
 
 .loading_post {
     gap: 30px;
@@ -305,9 +309,9 @@ body {
 }
 
 
-/* OUTFIT PAGE */
+/* ----- OUTFIT PAGE ----- */
 
-/* ---- TITRE ---- */
+/* TITRE */
 
 .outfit_title, .other_outfit_title {
     padding: 100px 0 150px 0;
@@ -317,28 +321,29 @@ body {
     padding: 25px 300px;
 }
 
-/* ---- ARTICLE ---- */
+/* ARTICLE */
 
-/* ---- LEFT ---- */
+/* Left */
 
 .tape {
     height: 250px;
-    left: -100px;
+    left: 100px;
     top: 150px;
 }
 
 .outfit_cloud_1 {
     height: 70px;
     top: 600px;
+    left: 50px;
 }
 
 .outfit_cloud_2 {
     height: 50px;
-    left: -50px;
+    left: 0px;
     top: 500px;
 }
 
-/* ---- POST CENTRAL ---- */
+/* Post central */
 
 #outfit_background {
     height: 800px;
@@ -353,30 +358,31 @@ body {
 #moon {
     top: 50px;
     height: 100px;
-    right: -120px;
+    right: 70px;
 }
 
-/* ---- RIGHT ---- */
+/* Right */
 
 .outfit_stars {
     height: 500px;
-    right: -400px;
+    right: -200px;
 }
 
 .outfit_cloud_3 {
     height: 55px;
+    right: 150px;
 }
 
-/* ---- OTHER STYLES ---- */ 
+/* OTHER STYLES */ 
 
 #outfit_stars_2 {
     top: 0px;
-    left: -170px;
+    left: 50px;
     height: 250px;
 }
 
 .paper {
-    left: 450px;
+    right: -150px;
     height: 580px;
     z-index: -1;
 }
@@ -387,25 +393,25 @@ body {
 
 .solo_star_1 {
     top: 70px;
-    right: -90px;
+    right: 140px;
     height: 60px;
 }
 
 .solo_star_2 {
     top: 170px;
-    right: -140px;
+    right: 110px;
     height: 40px;
 }
 
 .solo_star_3 {
     top: 200px;
-    right: -20px;
+    right: 20px;
     height: 80px;
 }
 
 #outfit_click {
     height: 60px;
-    bottom: 260px;
+    bottom: 120px;
     left: 200px;
 }
 
@@ -421,9 +427,9 @@ body {
     animation: 4.5s slide infinite
 }
 
-/*OTHER OUFITS */
+/* ----- OTHER OUFITS ----- */
 
-/* GENERAL*/
+/* GENERAL */
 
 .others_stars_background_1, .others_stars_background_2, .others_stars_background_3 {
     height: 500px;
@@ -451,13 +457,13 @@ body {
 
 .other_cloud_1 {
     height: 70px;
-    left: 120px;
+    left: 20px;
     top: 70px;
 }
 
 .other_cloud_2 {
     height: 40px;
-    left: 180px;
+    left: 80px;
     top: 10px;
 }
 
@@ -504,13 +510,13 @@ body {
 /* LINE OUTFIT 1 */
 
 .others_stars_background_1 {
-    left: 80px;
+    left: -20px;
 }
 
 /* LINE OUTFIT 2 */
 
 .others_stars_background_2 {
-    right: 80px;
+    right: -20px;
 }
 
 /* LINE OUTFIT 3 */
@@ -529,7 +535,7 @@ body {
 
 .other_click {
     height: 40px;
-    left: 670px;
+    right: 400px;
     top: 40px;
 }
 
@@ -544,19 +550,19 @@ body {
 
 .other_paper {
     top: -100px;
-    right: -50px;
+    right: -150px;
     height: 500px;
 }
 
 .other_potions {
     height: 150px;
-    right: 190px;
+    right: 90px;
     top: 50px;
 }
 
 .other_moon {
     height: 100px;
-    right: 230px;
+    right: 130px;
     top: -20px;
 }
 

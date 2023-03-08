@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-/* ---- TITRE ---- */
+/* ----- TITRE ----- */
 
 .outfit_title, .other_outfit_title {
     position: relative;
@@ -18,7 +18,7 @@
 .outfit_title img {
     position: absolute;
     height: 70px;
-    left: 150px;
+    left: 350px;
     top: 50px;
 }
 
@@ -33,7 +33,7 @@
 
 }
 
-/* ---- ARTICLE ---- */
+/* ----- ARTICLE ----- */
 
 .outfit_article {
     display: flex;
@@ -41,12 +41,12 @@
     justify-content: center;
 }
 
-/* ---- LEFT ---- */
+/* Left */
 
 .tape {
     height: 350px;
     position: absolute;
-    left: -150px;
+    left: 150px;
     top: 200px;
 }
 
@@ -57,18 +57,18 @@
 
 .outfit_cloud_1 {
     height: 80px;
-    left: -100px;
+    left: 100px;
     top: 700px;
 }
 
 .outfit_cloud_2 {
     height: 60px;
-    left: 0px;
+    left: 200px;
     top: 600px;
 }
 
 
-/* ---- POST CENTRAL ---- */
+/* Post central */
 
 #outfit_background {
     height: 1000px;
@@ -84,24 +84,21 @@
     position: absolute;
     height: 150px;
     z-index: 1;
-    right: -150px;
+    right: 150px;
 }
 
-/* ---- RIGHT ---- */
+/* Right */
 
 .outfit_stars {
-    opacity: 80%;
-    z-index: -1;
-    height: 700px;
     position: absolute;
     top: 150px;
-    right: -500px;
+    right: -300px;
 }
 
 .outfit_cloud_3 {
     height: 70px;
     top: 200px;
-    right: 50px;
+    right: 250px;
 }
 
 /* ---- OTHER STYLES ---- */ 
@@ -122,12 +119,13 @@
 
 #outfit_stars_2 {
     top: 50px;
-    left: -250px;
+    left: 0px;
     height: 400px;
 }
 
 .paper {
-    left: 400px;
+    right: -150px;
+    z-index: -1;
 }
 
 .outfit_button {
@@ -158,7 +156,7 @@
 
 .solo_star_1 {
     top: 200px;
-    right: -90px;
+    right: 110px;
     height: 90px;
 
     animation: 3s up1 infinite ease-out;
@@ -166,7 +164,7 @@
 
 .solo_star_2 {
     top: 300px;
-    right: -140px;
+    right: 170px;
     height: 70px;
 
     animation: 3.5s up1 infinite ease-out;
@@ -174,7 +172,7 @@
 
 .solo_star_3 {
     top: 330px;
-    right: -20px;
+    right: 50px;
     height: 110px;
 
     animation: 2.5s up1 infinite ease-out;
