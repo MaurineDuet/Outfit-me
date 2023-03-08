@@ -1,0 +1,46 @@
+{
+"Outfit 1": {
+    "weather":["mild"],
+    "color": ["black"],
+    "style": ["comfy"],
+    "id": "1",
+    "img": "db/db_assets/black/black_1.jpg"
+},
+
+"Outfit 2":
+{
+    "weather":["cold"],
+    "color": ["black"],
+    "style": ["comfy"],
+    "id": "2",
+    "img": "db/db_assets/black/black_2.jpg"
+},
+
+"Outfit 3":
+{
+    "weather":["hot"],
+    "color": ["black"],
+    "style": ["streat"],
+    "id": "3",
+    "img": "db/db_assets/black/black_3.jpg"
+},
+
+"Outfit 4":
+{
+    "weather":["cold"],
+    "color": ["black"],
+    "style": ["comfy"],
+    "id": "4",
+    "img": "db/db_assets/black/black_4.jpg"
+},
+
+"Outfit 5":
+{
+    "weather":["cold"],
+    "color": ["black"],
+    "style": ["comfy"],
+    "id": "5",
+    "img": "db/db_assets/black/black_5.jpg"
+}
+
+}

@@ -14,6 +14,7 @@
     justify-content: center;
     height: 80vh;
     gap: 50px;
+    z-index: 1;
 }
 
 .loading_post p {

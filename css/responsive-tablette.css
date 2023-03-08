@@ -8,7 +8,11 @@ body {
 
 
 .container {
-    width: 800px;
+    width: 700px;
+}
+
+main {
+    min-height: 60vh;
 }
 
 /* INDEX */
@@ -16,12 +20,13 @@ body {
 /* ---- LEFT ----- */
 
 .stars_background_index {
-    left: -350px;
+    left: -400px;
     height: 600px;
 }
 
 #left_pic {
     height: 200px;
+    left: 20px;
 }
 
 /* ---- MAIN POST ---- */
@@ -30,7 +35,7 @@ body {
 
 .main_post {
     top: 70px;
-    left: -460px;
+    left: -510px;
 }
 
 #main_img {
@@ -66,24 +71,24 @@ body {
 
 .right_pic_index {
     height: 300px;
-    left: -520px;
+    left: -580px;
     top: -50px;
 }
 
 .love_index {
     height: 40px;
-    left: -480px;
+    left: -50px;
 }
 
 .clouds_index {
     height: 80px;
-    left: -550px;
+    left: -580px;
 }
 
 .korean_love {
     height: 300px;
     top: -180px;
-    left: -530px;
+    left: -600px;
 }
 
 /* ---- PAGE DU FORMULAIRE ----- */
@@ -93,16 +98,16 @@ body {
 /* Base du post */
 
 .post_1, .post_2, .post_3 {
-    left: 350px;
+    left: 385px;
 }
 
 #post_it_1, #post_it_2, #post_it_3 {
-    height: 450px;
+    height: 410px;
 }
 
 .pin_form {
-    top: 90px;
-    left: 350px;
+    top: 70px;
+    left: 300px;
 
     height: 25px;
 }
@@ -131,18 +136,18 @@ body {
 }
 
 .post_1 h2 {
-    top: 140px;
+    top: 120px;
     padding: 25px 30px 25px 200px;
 }
 
 .post_1_text {
-    top: 230px;
+    top: 200px;
 }
 
 .clouds_form {
     left: -170px;
     top: 250px;
-    height: 100px;
+    height: 80px;
 }
 
 
@@ -150,17 +155,18 @@ body {
 
 .right_pic_form {
     left: 320px;
-    height: 400px;
+    height: 300px;
     top: -50px;
 }
 
 .love_form {
-    left: 400px;
-    height: 40px;
+    left: 380px;
 }
 
 .nj1 {
-    height: 400px;
+    height: 250px;
+    top: 140px;
+    left: 330px;
 }
 
 /* ---- POST 2 ---- */
@@ -168,41 +174,41 @@ body {
 /* Img left post 2 */
 
 .alice {
-    height: 450px;
+    height: 370px;
     top: 150px;
-    left: 0px;
+    left: 150px;
 }
 
 .heart1 {
-    left: 160px;
-    height: 70px;
+    left: 300px;
+    height: 50px;
     top: -40px;
 }
 
 .heart2 {
-    left: 180px;
-    height: 45px;
+    left: 290px;
+    height: 40px;
     top: 100px;
 }
 
 .heart3 {
     height: 30px;
-    left: 260px;
+    left: 360px;
     top: 60px;
 }
 
 /* Center post 2 */
 
 .post_2 h2 {
-    top: 130px;
-    left: 130px;
+    top: 110px;
+    left: 100px;
     padding: 25px 300px 25px 50px;
 }
 
 .post_2_text {
-    left: 20px;
+    left: 10px;
     gap: 0px;
-    top: 220px;
+    top: 200px;
 }
 
 /* ---- POST 3 ----- */
@@ -210,14 +216,14 @@ body {
 /* Centre post 3 */
 
 .post_3 h2 {
-    top: 125px;
-    left: -200px;
+    top: 115px;
+    left: -280px;
     padding: 25px 70px 25px 400px;
 }
 
 .post_3_text {
-    left: 85px;
-    top: 240px;
+    left: 70px;
+    top: 210px;
     gap: 0;
 }
 
@@ -231,11 +237,13 @@ body {
 
 #korean_fingers {
     top: 200px;
-    height: 120px;
+    height: 90px;
+    left: 200px ;
 }
 
 #korean_heart {
     top: 150px;
+    left: 200px;
 }
 
 #NJ2 {
@@ -256,17 +264,17 @@ body {
 }
 
 #cat_white, #cat_black {
-    height: 120px;
+    height: 100px;
 }
 
 #cat_white {
-    top: -450px;
-    left: 140px;
+    top: -420px;
+    left: 270px;
 }
 
 #cat_black {
-    top: -370px;
-    left: 240px;
+    top: -340px;
+    left: 320px;
 }
 
 .submit_button {
@@ -365,12 +373,12 @@ body {
 
 #outfit_stars_2 {
     top: 0px;
-    left: -170px;
-    height: 250px;
+    left: -20px;
+    height: 220px;
 }
 
 .paper {
-    left: 450px;
+    left: 350px;
     height: 580px;
     z-index: -1;
 }
@@ -381,25 +389,25 @@ body {
 
 .solo_star_1 {
     top: 70px;
-    right: -90px;
+    right: 0px;
     height: 60px;
 }
 
 .solo_star_2 {
     top: 170px;
-    right: -140px;
+    right: -20px;
     height: 40px;
 }
 
 .solo_star_3 {
     top: 200px;
-    right: -20px;
+    right: 30px;
     height: 80px;
 }
 
 #outfit_click {
-    height: 60px;
-    bottom: 260px;
+    height: 50px;
+    bottom: 120px;
     left: 200px;
 }
 
@@ -432,11 +440,11 @@ body {
 }
 
 .outfit_pics {
-    gap: 40px;
+    gap: 20px;
 }
 
 .outfit_pics img {
-    height: 350px;
+    height: 340px;
     margin-top: -50px;
 }
 
@@ -444,21 +452,21 @@ body {
 /* TITRE */
 
 .other_cloud_1 {
-    height: 70px;
-    left: 120px;
+    height: 50px;
+    left: 200px;
     top: 70px;
 }
 
 .other_cloud_2 {
-    height: 40px;
-    left: 180px;
+    height: 35px;
+    left: 260px;
     top: 10px;
 }
 
 .other_cherry_1 {
     bottom: 50px;
     height: 50px;
-    right: 350px;
+    right: 380px;
 }
 
 /* Les étoiles */
@@ -466,19 +474,19 @@ body {
 
 .star_1 {
     height: 40px;
-    right: 130px;
+    right: 240px;
     top: 40px;
 }
 
 .star_2 {
     height: 50px;
-    right: 180px;
+    right: 280px;
     top: 10px;
 }
 
 .star_3 {
     height: 60px;
-    right: 200px;
+    right: 300px;
     top: 70px;
 }
 
@@ -512,6 +520,7 @@ body {
 .duck {
     height: 100px;
     top: -85px;
+    left: 300px;
 }
 
 /* ANOTHER OUTFIT */
@@ -528,7 +537,7 @@ body {
 }
 
 .others_stars_background_3 {
-    left: -200px;
+    left: -100px;
     top: -50px;
 }
 
@@ -538,19 +547,19 @@ body {
 
 .other_paper {
     top: -100px;
-    right: -50px;
+    right: 0px;
     height: 500px;
 }
 
 .other_potions {
     height: 150px;
-    right: 190px;
+    right: 240px;
     top: 50px;
 }
 
 .other_moon {
     height: 100px;
-    right: 230px;
+    right: 280px;
     top: -20px;
 }
 

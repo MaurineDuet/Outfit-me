@@ -47,6 +47,10 @@ a {
     color: inherit;
 }
 
+.hidden {
+    display: none !important;
+}
+
 /* ---- HEADER ----- */
 
 header {
@@ -62,7 +66,7 @@ header {
 }
 
 header img {
-    height: 70px;  
+    height: 70px;
 }
 
 
@@ -119,10 +123,11 @@ footer {
 
     position: absolute;
     left: -70px;
-    
+
     visibility: hidden;
 
 }
+
 .infos_text a:hover::before {
     visibility: visible;
 }
@@ -154,7 +159,9 @@ footer {
 
 /* BOUTONS */
 
-.main_button button, .submit_button input, .try_again {
+.main_button button,
+.submit_button input,
+.try_again {
     font-family: "Pixel Digivolve";
     font-size: 2em;
     text-shadow: #FFFAE9 4px 2px;
@@ -163,15 +170,18 @@ footer {
     border-radius: 15px;
     box-shadow: #20222D 8px 8px 2px;
 
-	color: inherit;
-	border: none;
-	cursor: pointer;
-	outline: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
 
     white-space: nowrap;
 }
 
-.main_button button:hover, .submit_button input:hover, .outfit_button button:hover, .try_again:hover {
+.main_button button:hover,
+.submit_button input:hover,
+.outfit_button button:hover,
+.try_again:hover {
     background-color: #5863BF;
 }
 
@@ -180,11 +190,14 @@ footer {
 
 /* Souris du bouton */
 
-#click, #button_click, #outfit_click, .other_click {
+#click,
+#button_click,
+#outfit_click,
+.other_click {
     position: absolute;
 
     animation: 2s up infinite;
-    animation-timing-function:ease;
+    animation-timing-function: ease;
 }
 
 @keyframes up {
@@ -200,7 +213,9 @@ footer {
 /* Coeur qui part de la photo en haut à droite */
 
 
-.love_form, .love_index, .love_outfit {
+.love_form,
+.love_index,
+.love_outfit {
     animation: 3s slideup infinite;
     animation-timing-function: ease-out;
 }
@@ -209,12 +224,14 @@ footer {
     0% {
         opacity: 0;
     }
+
     50% {
         opacity: 1;
-        
+
     }
+
     100% {
-        transform: translate(-60px,-60px);
+        transform: translate(-60px, -60px);
         height: 90px;
         opacity: 0;
     }
@@ -223,7 +240,12 @@ footer {
 /* Nuages */
 
 
-.clouds_index, .clouds_form, .outfit_cloud_1, .outfit_cloud_2, .outfit_cloud_3, .other_cloud_1 {  
+.clouds_index,
+.clouds_form,
+.outfit_cloud_1,
+.outfit_cloud_2,
+.outfit_cloud_3,
+.other_cloud_1 {
     animation: 5s slide infinite;
     animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
 }
@@ -243,8 +265,3 @@ footer {
         opacity: 0;
     }
 }
-
-
-
-
-
