@@ -48,6 +48,7 @@
     position: absolute;
     left: 150px;
     top: 200px;
+    z-index: 1;
 }
 
 .outfit_cloud_1, .outfit_cloud_2, .outfit_cloud_3 {
@@ -71,13 +72,19 @@
 /* Post central */
 
 #outfit_background {
-    height: 1000px;
+    height: 900px;
 }
 
-#outfit_pic {
-    height: 700px;
+.outfitOfTheDay {
     position: absolute;
     top: 150px;
+    justify-self: center;
+}
+
+.outfitOfTheDay img {
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
 }
 
 #moon {

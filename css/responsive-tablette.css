@@ -9,14 +9,11 @@ body {
 
 .container {
     width: 700px;
+    padding-bottom: 120px;
 }
 
 .container2 {
     width: 700px;
-}
-
-main {
-    min-height: 60vh;
 }
 
 /* ----- INDEX ----- */
@@ -40,6 +37,7 @@ main {
 .main_post {
     top: 70px;
     left: -510px;
+
 }
 
 #main_img {
@@ -80,8 +78,7 @@ main {
 }
 
 .love_index {
-    height: 40px;
-    left: -50px;
+    display: none;
 }
 
 .clouds_index {

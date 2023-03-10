@@ -1,5 +1,6 @@
+
+[
 {
-"Outfit 1": {
     "weather":["mild"],
     "color": ["black"],
     "style": ["comfy"],
@@ -7,7 +8,6 @@
     "img": "db/db_assets/black/black_1.jpg"
 },
 
-"Outfit 2":
 {
     "weather":["cold"],
     "color": ["black"],
@@ -16,7 +16,6 @@
     "img": "db/db_assets/black/black_2.jpg"
 },
 
-"Outfit 3":
 {
     "weather":["hot"],
     "color": ["black"],
@@ -25,7 +24,6 @@
     "img": "db/db_assets/black/black_3.jpg"
 },
 
-"Outfit 4":
 {
     "weather":["cold"],
     "color": ["black"],
@@ -34,7 +32,6 @@
     "img": "db/db_assets/black/black_4.jpg"
 },
 
-"Outfit 5":
 {
     "weather":["cold"],
     "color": ["black"],
@@ -43,4 +40,5 @@
     "img": "db/db_assets/black/black_5.jpg"
 }
 
-}
+]
+

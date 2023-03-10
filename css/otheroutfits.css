@@ -16,12 +16,28 @@
 
 .outfit_pics {
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
-.outfit_pics img {
+.outfitBorder {
+    position: relative;
     height: 450px;
     margin-top: -50px;
+}
+
+.outfitItem {
+    position: relative;
+    flex-basis: calc(100% / 3 - 40px);
+}
+
+.outfitPic {
+    position: absolute;
+    top: 0;
+    height: 360px;
+    width: 270px;
+    object-fit: cover;
+    margin-top: -40px;
 }
 
 

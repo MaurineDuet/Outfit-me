@@ -12,6 +12,10 @@
 
 /* ----- GENERAL ----- */
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     color: #0A0C18;
     background-color: #FFFAE9;
@@ -24,7 +28,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    overflow-x: hidden;
+    min-height: 100vh;
 }
 
 main {

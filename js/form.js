@@ -22,14 +22,16 @@ if (answersContainers) {
 
 // Chargement de la page outfit après la page loading //
 
-const outfitBtn = document.querySelector("[data-outfit-btn]")
+const form = document.querySelector("[form]")
 
-if (outfitBtn) {
+if (form) {
     
-    outfitBtn.addEventListener('click', e => {
+    form.addEventListener('submit', e => {
         e.preventDefault()
+        const data = new FormData(form)
         setTimeout(() => {
-            document.location = 'loading.html'
+            console.log(data.get("weather"))
+            document.location = `loading.html?weather=${data.get('weather')}&weather=${data.get('weather')}&weather=${data.get('weather')}`
         }, 1500)
     })
     
@@ -37,7 +39,7 @@ if (outfitBtn) {
 
 if (location.pathname === "/loading.html") {
     setTimeout(() => {
-        document.location = 'outfit.html'
+        document.location = `outfit.html${location.search}`
     }, 5000)
 }
 
