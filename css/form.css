@@ -57,10 +57,6 @@
 
 /* Selection des choix */
 
-input {
-    all: unset;  
-}
-
 .post_1_text input, .post_2_text input, .post_3_text input {
     padding: 0 10px;
 }

@@ -30,8 +30,7 @@ if (form) {
         e.preventDefault()
         const data = new FormData(form)
         setTimeout(() => {
-            console.log(data.get("weather"))
-            document.location = `loading.html?weather=${data.get('weather')}&weather=${data.get('weather')}&weather=${data.get('weather')}`
+            document.location = `loading.html?weather=${data.get("weather")}&color=${data.get("color")}&style=${data.get("style")}`
         }, 1500)
     })
     

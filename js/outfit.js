@@ -1,3 +1,5 @@
+
+//Crée une classe Outfit
 class Outfit {
     constructor(jsonOutfit) {
         this.id = jsonOutfit.id
@@ -11,85 +13,90 @@ class Outfit {
 const templateOutfitLine = document.querySelector("#templateOutfitLine")
 const outfitSection = document.querySelector("[outfit_line]")
 
-fetch("db/db.json")
-.then(data => data.json())
-.then(jsonListOutfits => {
+let goodOutfits = []
+let outfit
+
+
+//Fait réagir le lancement du fetch quand la bonne page est chargée
+
+if (location.pathname === `/outfit.html`) {
     
-    let randomOufit = jsonListOutfits[Math.floor(Math.random()*jsonListOutfits.length)]
-    console.log(randomOufit)
-    
-    for (const [index,jsonOutfit] of jsonListOutfits.entries()) {
-        let outfit = new Outfit(jsonOutfit)
-        console.log(outfit)
+    fetch("db/db.json")
+    .then(data => data.json())
+    .then(jsonListOutfits => { 
+        //jsonListOutfits me donne un array rempli d'objets, chaque objet étant un outfit
         
+        for (const jsonOutfit of jsonListOutfits) {
+            outfit = new Outfit(jsonOutfit)
+            //un outfit = un objet qui correspond à un outfit. 
+            // A cette étape on se retrouve avec un objet par outfit
+            
+            //Récupère les paramètres dans l'URL de outfit.html
+            
+            const outfitUrl = window.location.search
+            const outfitUrlParams = new URLSearchParams(outfitUrl)
+            const outfitWeather = outfitUrlParams.get('weather')
+            const outfitColor = outfitUrlParams.get('color')
+            const outfitStyle = outfitUrlParams.get('style')
+
+            //On remplit le tableay avec les bonnes réponses
+            
+            if (outfitWeather === outfit.weather && outfitColor === outfit.color && outfitStyle === outfit.style) {
+                goodOutfits.push(outfit)
+            }
+            
+        }
+
+        if (goodOutfits.length === 0) {
+            document.location = "nooutfit.html"
+            return
+        }
+
+        //Création du visuel en fonction du nombre de réponse dans le tableau
+
+        for (const [index, goodOutfit] of goodOutfits.entries()) {
             if (index % 4 === 0) {
                 const outfitLine = templateOutfitLine.content.cloneNode(true)
                 outfitSection.append(outfitLine)
             }
-            const outfitOfTheDay = document.querySelector(".outfitOfTheDay")
-            const allOutfitItems = document.querySelectorAll(".outfit_pics")
-            const outfitItems = allOutfitItems[allOutfitItems.length-1]
+        }
+
+        //On pique le random
+        
+        let randomOufit = goodOutfits[Math.floor(Math.random()*goodOutfits.length)]     
+        
+        const outfitOfTheDay = document.querySelector(".outfitOfTheDay")
+        const allOutfitItems = document.querySelectorAll(".outfit_pics")
+        const outfitItems = allOutfitItems[allOutfitItems.length-1]
+
+        //On rempli le visuel avec les bonnes photos
+        
+        goodOutfits.forEach(goodOutfit => {
+            console.log(goodOutfit)
             
-            if (outfit.id === randomOufit.id) { 
+            if (goodOutfit.id === randomOufit.id) { 
                 outfitOfTheDay.innerHTML =  
-                `<figure data-outfit-id="${outfit.id}" data-outfit-color="${outfit.color}" data-outfit-weather="${outfit.weather} data-outfit-style="${outfit.style}">
+                `<figure data-outfit-id="${goodOutfit.id}" data-outfit-color="${goodOutfit.color}" data-outfit-weather="${goodOutfit.weather} data-outfit-style="${goodOutfit.style}">
                 <div>
-                <img src="${outfit.img}">
+                <img src="${goodOutfit.img}">
                 </div>
                 </figure>`
                 
             } else {
                 outfitItems.innerHTML += 
-                `<figure class="outfitItem" data-outfit-id="${outfit.id}" data-outfit-color="${outfit.color}" data-outfit-weather="${outfit.weather} data-outfit-style="${outfit.style}">                             
+                `<figure class="outfitItem" data-outfit-id="${goodOutfit.id}" data-outfit-color="${goodOutfit.color}" data-outfit-weather="${goodOutfit.weather} data-outfit-style="${goodOutfit.style}">                             
                 
                 <div>
-                <img class="outfitPic" src="${outfit.img}">
+                <img class="outfitPic" src="${goodOutfit.img}">
                 </div>
-
+                
                 <img class="outfitBorder" src="assets/outfit/pic_background.png" alt="">
-
+                
                 </figure>`
             }
-            
-        }
-
+        })
+        
         
     })
     
-    /*
-    function createOutfit(outfit, areWeInOtherOutfit = true) {
-        const newOutfit = document.createElement("figure")
-        if (areWeInOtherOutfit) {
-            newOutfit.setAttribute("data-piece-of-outfit", "")
-            newOutfit.setAttribute("data-piece-of-outfit-id", outfit.id)
-            newOutfit.setAttribute("data-piece-of-outfit-color", outfit.color)
-            newOutfit.setAttribute("data-piece-of-outfit-weather", outfit.weather)
-            newOutfit.setAttribute("data-piece-of-outfit-style", outfit.style)
-            newOutfit.setAttribute("data-miniature", "")
-            newOutfit.innerHTML +=
-            `
-            <div class="outfit-minia">
-            <img src="assets/outfit/pic_background.png" class="other-outfit-img">
-            <img src="${outfit.img}" class="other-outfit-img">
-            </div>
-            `
-        } else {
-            newOutfit.setAttribute("data-outfit", "")
-            newOutfit.setAttribute("data-outfit-id", outfit.id)
-            newOutfit.setAttribute("data-outfit-color", outfit.color)
-            newOutfit.setAttribute("data-outfit-weather", outfit.weather)
-            newOutfit.setAttribute("data-outfit-style", outfit.style)
-            newOutfit.setAttribute("data-miniature", "")
-            newOutfit.innerHTML +=
-            `
-            <div class="outfit-main">
-            <img src="${outfit.img}" class="outfit-img">
-            </div>
-            `
-        }
-        
-        return newOutfit
-    }
-    
-    
-    */
+}
