@@ -1,5 +1,5 @@
 @media screen and (max-width:699px) {
-
+    
     /* ----- GENERAL ----- */
     
     body {
@@ -17,25 +17,25 @@
     main {
         min-height: 60vh;
     }
-
+    
     header {
         justify-content: center;
         padding-left: 0;
     }
-
+    
     footer {
         flex-direction: column;
         gap: 50px;
     }
-
+    
     .infos, .footer_right {
         align-items: center;
     }
-
+    
     .infos_text p {
         padding: 15px 30px;
     }
-
+    
     .footer_right img {
         height: 20px;
     }
@@ -45,7 +45,7 @@
     .left, .right {
         display: none;
     }
-
+    
     /* Main post */
     
     /* Général */
@@ -89,7 +89,7 @@
     /* COMMUN */
     
     /* Base du post */
-
+    
     .post {
         padding-bottom: 40px;
     }
@@ -105,14 +105,14 @@
     .pin_form {
         top: 60px;
         left: 250px;
-    
+        
         height: 25px;
     }
     
     .post_1_text, .post_2_text, .post_3_text {
         gap: 5px;
     }
-
+    
     .item {
         padding: 10px 5px;
     }
@@ -120,7 +120,7 @@
     .post_2_col, .post_3_col {
         gap: 0px;
     }
-
+    
     .selector {
         display: none;
     }
@@ -162,7 +162,7 @@
     /* POST 2 */
     
     /* Img left post 2 */
-
+    
     .img_post_2_left, .img_post_2_right {
         display: none;
     }
@@ -183,7 +183,7 @@
     /* POST 3 */
     
     /* Centre post 3 */
-
+    
     .post_3 {
         padding-bottom: 35px;
     }
@@ -282,10 +282,16 @@
         height: 500px;
     }
     
-    #outfit_pic {
-        height: 550px;
-        top: 120px;
-        left: 135px;
+    .outfitOfTheDay {
+        position: absolute;
+        top: 60px;
+        justify-self: center;
+    }
+    
+    .outfitOfTheDay img {
+        height: 380px;
+        width: 240px;
+        object-fit: cover;
     }
     
     #moon {
@@ -337,11 +343,11 @@
     .outfit_button button:hover {
         color: #D6D2EC;
     }
-
+    
     /* ----- OTHER OUFITS ----- */
     
     /* GENERAL*/
-
+    
     .other_outfit_title {
         padding: 0 0 130px 0;
     }
@@ -361,14 +367,23 @@
     .outfit_pics {
         display: flex;
         flex-direction: column;
-        gap: 20px;
     }
     
-    .outfit_pics img {
-        height: 340px;
-        margin-top: 0px;
+    .outfitItem {
+        position: relative;
+        flex-basis: calc(100% / 3 - 40px);
+        padding-top: 40px;
     }
     
+    .outfitBorder {
+        height: 300px;
+    }
+    
+    .outfitPic {
+        padding-top: 40px;
+        height: 230px;
+        width: 180px;
+    }
     
     /* TITRE */
     
@@ -458,6 +473,23 @@
     .other_moon {
         display: none;
     }
+
+    /* NO OUTFIT */
+
+#nooutfitclick {
+    top: 430px;
+    left: 250px;
+}
+
+.nooutfitp {
+    padding-top: 150px;
+    font-size: 1.4em;
+}
+
+.nooutfitbutton {
+    padding-bottom: 100px;
+}
+
     
     
-    }
+}

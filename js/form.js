@@ -29,10 +29,16 @@ if (form) {
     form.addEventListener('submit', e => {
         e.preventDefault()
         const data = new FormData(form)
+
+        if (data.get("weather")===null || data.get("color")===null || data.get("style")===null ) {
+            alert("Please complete the form.")
+            return
+        } else {
         setTimeout(() => {
             document.location = `loading.html?weather=${data.get("weather")}&color=${data.get("color")}&style=${data.get("style")}`
-        }, 1500)
+        }, 1500) }
     })
+
     
 }
 

@@ -196,3 +196,19 @@
     right: 130px;
     top: 0px;
 }
+
+/* NO OUTFIT */
+
+#nooutfitclick {
+    top: 500px;
+}
+
+.nooutfitp {
+    padding-top: 200px;
+    font-size: 2em;
+}
+
+.nooutfitbutton {
+    align-self: center;
+    padding-bottom: 150px;
+}

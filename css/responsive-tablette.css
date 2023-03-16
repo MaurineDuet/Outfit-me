@@ -351,11 +351,18 @@ body {
     height: 800px;
 }
 
-#outfit_pic {
-    height: 550px;
-    top: 120px;
-    left: 135px;
+.outfitOfTheDay {
+    position: absolute;
+    top: 100px;
+    justify-self: center;
 }
+
+.outfitOfTheDay img {
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+}
+
 
 #moon {
     top: 50px;
@@ -444,13 +451,13 @@ body {
     height: 80px;
 }
 
-.outfit_pics {
-    gap: 20px;
+.outfitBorder {
+    height: 300px;
 }
 
-.outfit_pics img {
-    height: 340px;
-    margin-top: -50px;
+.outfitPic {
+    height: 230px;
+    width: 180px;
 }
 
 
@@ -511,7 +518,7 @@ body {
 /* LINE OUTFIT 1 */
 
 .others_stars_background_1 {
-    left: -80px;
+    display: none;
 }
 
 /* LINE OUTFIT 2 */
@@ -566,6 +573,21 @@ body {
     height: 100px;
     right: 30px;
     top: -20px;
+}
+
+/* NO OUTFIT */
+
+#nooutfitclick {
+    top: 520px;
+    left: 460px;
+}
+
+.nooutfitp {
+    padding-top: 100px;
+}
+
+.nooutfitbutton {
+    padding-bottom: 100px;
 }
 
 
