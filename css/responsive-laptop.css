@@ -594,5 +594,12 @@
         top: -20px;
     }
 
+    /* NO OUTFIT */
+
+    #nooutfitclick {
+        top: 500px;
+        right: 420px;
+    }
+
 
 }
