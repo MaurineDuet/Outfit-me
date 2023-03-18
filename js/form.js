@@ -26,7 +26,7 @@ const form = document.querySelector("[form]")
 
 if (form) {
     
-    form.addEventListener('submit', e => {
+    form.addEventListener("submit", e => {
         e.preventDefault()
         const data = new FormData(form)
 
@@ -47,4 +47,3 @@ if (location.pathname === "/loading.html") {
         document.location = `outfit.html${location.search}`
     }, 5000)
 }
-

@@ -8,14 +8,11 @@
     
     .container {
         width: 350px;
+        padding-bottom: 135px;
     }
     
     .container2 {
         width: 350px;
-    }
-    
-    main {
-        min-height: 60vh;
     }
     
     header {
@@ -95,7 +92,7 @@
     }
     
     .post_1, .post_2, .post_3 {
-        left: 0px;
+        left: -10px;
     }
     
     #post_it_1, #post_it_2, #post_it_3 {
@@ -114,7 +111,8 @@
     }
     
     .item {
-        padding: 10px 5px;
+        padding: 5px 5px;
+        gap: 0;
     }
     
     .post_2_col, .post_3_col {
@@ -146,7 +144,7 @@
     }
     
     .post_1_text {
-        top: 168px;
+        top: 178px;
     }
     
     .clouds_form {
@@ -166,6 +164,7 @@
     .img_post_2_left, .img_post_2_right {
         display: none;
     }
+
     /* Center post 2 */
     
     .post_2 h2 {
@@ -175,7 +174,7 @@
     }
     
     .post_2_text {
-        left: 15px;
+        left: 25px;
         gap: 0px;
         top: 170px;
     }
@@ -195,7 +194,7 @@
     }
     
     .post_3_text {
-        left: 70px;
+        left: 85px;
         top: 195px;
         gap: 0;
     }
@@ -215,7 +214,7 @@
     }
     
     .submit_button {
-        transform: translateX(60px);
+        transform: translateX(75px);
         top: 20px;
     }
     
@@ -241,6 +240,10 @@
     
     #loading {
         height: 80px;
+    }
+
+    .loading_clouds {
+        display: none;
     }
     
     

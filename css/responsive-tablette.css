@@ -9,7 +9,7 @@ body {
 
 .container {
     width: 700px;
-    padding-bottom: 120px;
+    padding-bottom: 30px;
 }
 
 .container2 {
@@ -26,8 +26,7 @@ body {
 }
 
 #left_pic {
-    height: 200px;
-    left: 20px;
+    display: none;
 }
 
 /* Main post */
@@ -114,12 +113,22 @@ body {
 }
 
 .post_1_text, .post_2_text, .post_3_text {
-    gap: 10px;
+    gap: 0px;
 }
 
 .post_2_col, .post_3_col {
     gap: 0px;
 }
+
+.selector {
+    display: none;
+}
+
+.item {
+    gap: 0;
+    padding: 10px 5px;
+}
+
 
 /* Image des étoiles */
 
@@ -206,9 +215,9 @@ body {
 }
 
 .post_2_text {
-    left: 10px;
+    left: 60px;
     gap: 0px;
-    top: 200px;
+    top: 190px;
 }
 
 /* POST 3 */
@@ -222,8 +231,8 @@ body {
 }
 
 .post_3_text {
-    left: 70px;
-    top: 210px;
+    left: 120px;
+    top: 200px;
     gap: 0;
 }
 
@@ -278,7 +287,7 @@ body {
 }
 
 .submit_button {
-    transform: translateX(calc(500px - 65px));
+    transform: translateX(calc(500px - 45px));
     top: -220px;
 }
 
@@ -289,7 +298,6 @@ body {
 #button_click {
     height: 40px;
     top: 55px;
-    left: 300px;
 }
 
 /* ----- LOADING PAGE ----- */
@@ -362,7 +370,6 @@ body {
     width: 400px;
     object-fit: cover;
 }
-
 
 #moon {
     top: 50px;

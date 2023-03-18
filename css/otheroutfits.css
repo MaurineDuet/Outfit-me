@@ -18,6 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    justify-content: center;
 }
 
 .outfitBorder {
@@ -29,6 +30,8 @@
 .outfitItem {
     position: relative;
     flex-basis: calc(100% / 3 - 40px);
+    display: flex;
+    justify-content: center;
 }
 
 .outfitPic {
@@ -201,6 +204,7 @@
 
 #nooutfitclick {
     top: 500px;
+    right: 820px;
 }
 
 .nooutfitp {

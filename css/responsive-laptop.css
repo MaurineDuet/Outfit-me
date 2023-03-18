@@ -1,570 +1,598 @@
 @media screen and (max-width:1399px) {
 
-/* ----- GENERAL ----- */
+    /* ----- GENERAL ----- */
 
-body {
-    font-size: 0.7em;
-}
+    body {
+        font-size: 0.7em;
+    }
 
 
-.container {
-    width: 1000px;
-}
+    .container {
+        width: 1000px;
+    }
 
-.container2 {
-    width: 1000px;
-}
+    .container2 {
+        width: 1000px;
+    }
 
-/* BOUTONS */
+    /* BOUTONS */
 
-.main_button button, .submit_button input, .try_again {
-    font-size: 1.5em;
-}
+    .main_button button,
+    .submit_button input,
+    .try_again {
+        font-size: 1.5em;
+    }
 
-/* ----- INDEX ----- */
+    /* ----- INDEX ----- */
 
-/* LEFT */
+    /* LEFT */
 
-.stars_background_index {
-    right: 0px;
-}
+    .stars_background_index {
+        right: 0px;
+    }
 
-#left_pic {
-    height: 270px;
-}
+    #left_pic {
+        height: 270px;
+    }
 
-/* MAIN POST */
+    /* MAIN POST */
 
-/* Général */
+    /* Général */
 
-.main_post {
-    top: 80px;
-    left: -500px;
-}
+    .main_post {
+        top: 80px;
+        left: -500px;
+    }
 
-#main_img {
-    height: 450px;
-}
+    #main_img {
+        height: 450px;
+    }
 
-/* Texte */
+    /* Texte */
 
-.title {
-    top: 180px;
-    left: 120px;
-}
+    .title {
+        top: 180px;
+        left: 120px;
+    }
 
-.pin_index {
-    height: 25px;
-    top: -50px;
-    left: 250px;
-}
+    .pin_index {
+        height: 25px;
+        top: -50px;
+        left: 250px;
+    }
 
-/* Button */
+    /* Button */
 
-.main_button {
-    bottom: 400px;
-    left: 170px;
-}
+    .main_button {
+        bottom: 400px;
+        left: 170px;
+    }
 
-#click {
-    height: 40px;
-    bottom: -20px;
-    left: 140px;
-}
+    #click {
+        height: 40px;
+        bottom: -20px;
+        left: 140px;
+    }
 
-/* RIGHT */
+    /* RIGHT */
 
-.right_pic_index {
-    height: 400px;
-    left: -520px;
-    top: -50px;
-}
+    .right_pic_index {
+        height: 400px;
+        left: -520px;
+        top: -50px;
+    }
 
-.love_index {
-    height: 40px;
-    left: -430px;
-}
+    .love_index {
+        height: 40px;
+        left: -430px;
+    }
 
-.clouds_index {
-    height: 90px;
-    left: -550px;
-}
+    .clouds_index {
+        height: 90px;
+        left: -550px;
+    }
 
-.korean_love {
-    height: 400px;
-    top: -240px;
-    left: -530px;
-}
+    .korean_love {
+        height: 400px;
+        top: -240px;
+        left: -530px;
+    }
 
-/* ---- PAGE DU FORMULAIRE ----- */
+    /* ---- PAGE DU FORMULAIRE ----- */
 
-/* COMMUN */
+    /* COMMUN */
 
-/* Base du post */
+    /* Base du post */
 
-.post_1, .post_2, .post_3 {
-    left: 350px;
-}
+    .post_1,
+    .post_2,
+    .post_3 {
+        left: 350px;
+    }
 
-#post_it_1, #post_it_2, #post_it_3 {
-    height: 450px;
-}
+    #post_it_1,
+    #post_it_2,
+    #post_it_3 {
+        height: 450px;
+    }
 
-.pin_form {
-    top: 90px;
-    left: 350px;
+    .pin_form {
+        top: 90px;
+        left: 350px;
 
-    height: 25px;
-}
+        height: 25px;
+    }
 
-.post_1_text, .post_2_text, .post_3_text {
-    gap: 10px;
-}
+    .post_1_text,
+    .post_2_text,
+    .post_3_text {
+        gap: 10px;
+    }
 
-.post_2_col, .post_3_col {
-    gap: 0px;
-}
+    .post_2_col,
+    .post_3_col {
+        gap: 0px;
+    }
+
+    /* ---- Image des étoiles ----- */
 
-/* ---- Image des étoiles ----- */
+    #last_stars,
+    .stars_background_2 {
+        height: 500px;
+    }
 
-#last_stars, .stars_background_2 {
-    height: 500px;
-}
+    .selector {
+        padding-right: 10px;
+    }
 
+    .item {
+        gap: 0;
+    }
+
+
+    /* POST 1 */
+
+    /* Centre du post */
+
+    .post_1 {
+        padding-bottom: 30px;
+    }
+
+    .post_1 h2 {
+        top: 140px;
+        padding: 25px 30px 25px 200px;
+    }
+
+    .post_1_text {
+        top: 230px;
+    }
+
+    .clouds_form {
+        left: -170px;
+        top: 250px;
+        height: 100px;
+    }
 
-/* POST 1 */
+
+    /* Images du post */
 
-/* Centre du post */
+    .right_pic_form {
+        left: 320px;
+        height: 400px;
+        top: -50px;
+    }
+
+    .love_form {
+        left: 400px;
+        height: 40px;
+    }
+
+    .nj1 {
+        height: 400px;
+    }
+
+    /* POST 2 */
+
+    /* Img left post 2 */
+
+    .alice {
+        height: 450px;
+        top: 150px;
+        left: 0px;
+    }
+
+    .heart1 {
+        left: 160px;
+        height: 70px;
+        top: -40px;
+    }
+
+    .heart2 {
+        left: 180px;
+        height: 45px;
+        top: 100px;
+    }
+
+    .heart3 {
+        height: 30px;
+        left: 260px;
+        top: 60px;
+    }
+
+    /* Center post 2 */
+
+    .post_2 h2 {
+        top: 130px;
+        left: 130px;
+        padding: 25px 300px 25px 50px;
+    }
+
+    .post_2_text {
+        left: 20px;
+        gap: 0px;
+        top: 220px;
+    }
 
-.post_1 {
-    padding-bottom: 30px;
-}
+    /* POST 3 */
 
-.post_1 h2 {
-    top: 140px;
-    padding: 25px 30px 25px 200px;
-}
+    /* Centre post 3 */
 
-.post_1_text {
-    top: 230px;
-}
+    .post_3 h2 {
+        top: 125px;
+        left: -200px;
+        padding: 25px 70px 25px 400px;
+    }
 
-.clouds_form {
-    left: -170px;
-    top: 250px;
-    height: 100px;
-}
+    .post_3_text {
+        left: 85px;
+        top: 240px;
+        gap: 0;
+    }
 
+    .img_post_3_right {
+        left: 200px;
+    }
 
-/* Images du post */
+    #paper {
+        top: -20px;
+    }
 
-.right_pic_form {
-    left: 320px;
-    height: 400px;
-    top: -50px;
-}
+    #korean_fingers {
+        top: 200px;
+        height: 120px;
+    }
+
+    #korean_heart {
+        top: 150px;
+    }
+
+    #NJ2 {
+        height: 350px;
+        left: 80px;
+    }
 
-.love_form {
-    left: 400px;
-    height: 40px;
-}
 
-.nj1 {
-    height: 400px;
-}
-
-/* POST 2 */
-
-/* Img left post 2 */
-
-.alice {
-    height: 450px;
-    top: 150px;
-    left: 0px;
-}
-
-.heart1 {
-    left: 160px;
-    height: 70px;
-    top: -40px;
-}
-
-.heart2 {
-    left: 180px;
-    height: 45px;
-    top: 100px;
-}
-
-.heart3 {
-    height: 30px;
-    left: 260px;
-    top: 60px;
-}
-
-/* Center post 2 */
-
-.post_2 h2 {
-    top: 130px;
-    left: 130px;
-    padding: 25px 300px 25px 50px;
-}
-
-.post_2_text {
-    left: 20px;
-    gap: 0px;
-    top: 220px;
-}
-
-/* POST 3 */
-
-/* Centre post 3 */
-
-.post_3 h2 {
-    top: 125px;
-    left: -200px;
-    padding: 25px 70px 25px 400px;
-}
-
-.post_3_text {
-    left: 85px;
-    top: 240px;
-    gap: 0;
-}
-
-.img_post_3_right {
-    left: 200px;
-}
-
-#paper {
-    top: -20px;
-}
-
-#korean_fingers {
-    top: 200px;
-    height: 120px;
-}
-
-#korean_heart {
-    top: 150px;
-}
-
-#NJ2 {
-    height: 350px;
-    left: 80px;
-}
-
-
-/* BOUTON DE FIN */
-
-.submit_post {
-    padding-bottom: 50px;
-}
-
-#last_stars {
-    top: -220px;
-    left: -130px;
-}
-
-#cat_white, #cat_black {
-    height: 120px;
-}
-
-#cat_white {
-    top: -450px;
-    left: 140px;
-}
-
-#cat_black {
-    top: -370px;
-    left: 240px;
-}
-
-.submit_button {
-    transform: translateX(calc(500px - 65px));
-    top: -220px;
-}
-
-.submit_button input {
-    padding: 30px 70px;
-}
-
-#button_click {
-    height: 40px;
-    top: 55px;
-    left: 300px;
-}
-
-/* ----- LOADING PAGE ----- */
-
-.loading_post {
-    gap: 30px;
-}
-
-.loading_post p {
-    font-size: 1em;
-}
-
-#loading {
-    height: 80px;
-}
-
-
-/* ----- OUTFIT PAGE ----- */
-
-/* TITRE */
-
-.outfit_title, .other_outfit_title {
-    padding: 100px 0 150px 0;
-}
-
-.outfit_title h2, .other_outfit_title h2 {
-    padding: 25px 300px;
-}
-
-/* ARTICLE */
-
-/* Left */
-
-.tape {
-    height: 250px;
-    left: 100px;
-    top: 150px;
-}
-
-.outfit_cloud_1 {
-    height: 70px;
-    top: 600px;
-    left: 50px;
-}
-
-.outfit_cloud_2 {
-    height: 50px;
-    left: 0px;
-    top: 500px;
-}
-
-/* Post central */
-
-#outfit_background {
-    height: 800px;
-}
-
-#outfit_pic {
-    height: 550px;
-    top: 120px;
-    left: 135px;
-}
-
-#moon {
-    top: 50px;
-    height: 100px;
-    right: 70px;
-}
-
-/* Right */
-
-.outfit_stars {
-    height: 500px;
-    right: -200px;
-}
-
-.outfit_cloud_3 {
-    height: 55px;
-    right: 150px;
-}
-
-/* OTHER STYLES */ 
-
-#outfit_stars_2 {
-    top: 0px;
-    left: 50px;
-    height: 250px;
-}
-
-.paper {
-    right: -150px;
-    height: 580px;
-    z-index: -1;
-}
-
-.outfit_button {
-    padding: 50px 0 150px 0;
-}
-
-.solo_star_1 {
-    top: 70px;
-    right: 140px;
-    height: 60px;
-}
-
-.solo_star_2 {
-    top: 170px;
-    right: 110px;
-    height: 40px;
-}
-
-.solo_star_3 {
-    top: 200px;
-    right: 20px;
-    height: 80px;
-}
-
-#outfit_click {
-    height: 60px;
-    bottom: 120px;
-    left: 200px;
-}
-
-.outfit_button button:hover {
-    color: #D6D2EC;
-}
-
-.outfit_cloud_1 {
-    animation: 4s slide infinite
-}
-
-.outfit_cloud_3 {
-    animation: 4.5s slide infinite
-}
-
-/* ----- OTHER OUFITS ----- */
-
-/* GENERAL */
-
-.others_stars_background_1, .others_stars_background_2, .others_stars_background_3 {
-    height: 500px;
-}
-
-.outfit_line {
-    padding-bottom: 100px;
-}
-
-.outfit_line_background {
-    height: 80px;
-}
-
-.outfit_pics {
-    gap: 40px;
-}
-
-.outfitBorder {
-    height: 350px;
-    margin-top: -50px;
-}
-
-
-/* TITRE */
-
-.other_cloud_1 {
-    height: 70px;
-    left: 20px;
-    top: 70px;
-}
-
-.other_cloud_2 {
-    height: 40px;
-    left: 80px;
-    top: 10px;
-}
-
-.other_cherry_1 {
-    bottom: 50px;
-    height: 50px;
-    right: 350px;
-}
-
-/* Les étoiles */
-
-
-.star_1 {
-    height: 40px;
-    right: 130px;
-    top: 40px;
-}
-
-.star_2 {
-    height: 50px;
-    right: 180px;
-    top: 10px;
-}
-
-.star_3 {
-    height: 60px;
-    right: 200px;
-    top: 70px;
-}
-
-.star_4 {
-    height: 40px;
-    right: 170px;
-    top: 170px;
-}
-
-.star_5 {
-    height: 70px;
-    right: 100px;
-    top: 105px;
-}
-
-
-/* LINE OUTFIT 1 */
-
-.others_stars_background_1 {
-    left: -20px;
-}
-
-/* LINE OUTFIT 2 */
-
-.others_stars_background_2 {
-    right: -20px;
-}
-
-/* LINE OUTFIT 3 */
-
-.duck {
-    height: 100px;
-    top: -85px;
-}
-
-/* ANOTHER OUTFIT */
-
-.another_outfit {
-    padding: 0px 0 150px 0;
-}
-
-
-.other_click {
-    height: 40px;
-    right: 400px;
-    top: 40px;
-}
-
-.others_stars_background_3 {
-    left: -200px;
-    top: -50px;
-}
-
-.other_cherry_2 {
-    display: none;
-}
-
-.other_paper {
-    top: -100px;
-    right: -150px;
-    height: 500px;
-}
-
-.other_potions {
-    height: 150px;
-    right: 90px;
-    top: 50px;
-}
-
-.other_moon {
-    height: 100px;
-    right: 130px;
-    top: -20px;
-}
+    /* BOUTON DE FIN */
+
+    .submit_post {
+        padding-bottom: 50px;
+    }
+
+    #last_stars {
+        top: -220px;
+        left: -130px;
+    }
+
+    #cat_white,
+    #cat_black {
+        height: 120px;
+    }
+
+    #cat_white {
+        top: -450px;
+        left: 140px;
+    }
+
+    #cat_black {
+        top: -370px;
+        left: 240px;
+    }
+
+    .submit_button {
+        transform: translateX(calc(500px - 65px));
+        top: -220px;
+    }
+
+    .submit_button input {
+        padding: 30px 70px;
+    }
+
+    #button_click {
+        height: 40px;
+        top: 55px;
+        left: 230px;
+    }
+
+    /* ----- LOADING PAGE ----- */
+
+    .loading_post {
+        gap: 30px;
+    }
+
+    .loading_post p {
+        font-size: 1em;
+    }
+
+    #loading {
+        height: 80px;
+    }
+
+
+    /* ----- OUTFIT PAGE ----- */
+
+    /* TITRE */
+
+    .outfit_title,
+    .other_outfit_title {
+        padding: 100px 0 150px 0;
+    }
+
+    .outfit_title h2,
+    .other_outfit_title h2 {
+        padding: 25px 300px;
+    }
+
+    /* ARTICLE */
+
+    /* Left */
+
+    .tape {
+        height: 250px;
+        left: 100px;
+        top: 150px;
+    }
+
+    .outfit_cloud_1 {
+        height: 70px;
+        top: 600px;
+        left: 50px;
+    }
+
+    .outfit_cloud_2 {
+        height: 50px;
+        left: 0px;
+        top: 500px;
+    }
+
+    /* Post central */
+
+    #outfit_background {
+        height: 800px;
+    }
+
+    .outfitOfTheDay {
+        position: absolute;
+        top: 100px;
+        justify-self: center;
+    }
+
+    .outfitOfTheDay img {
+        height: 600px;
+        width: 400px;
+        object-fit: cover;
+    }
+
+    #moon {
+        top: 50px;
+        height: 100px;
+        right: 70px;
+    }
+
+    /* Right */
+
+    .outfit_stars {
+        height: 500px;
+        right: -200px;
+    }
+
+    .outfit_cloud_3 {
+        height: 55px;
+        right: 150px;
+    }
+
+    /* OTHER STYLES */
+
+    #outfit_stars_2 {
+        top: 0px;
+        left: 50px;
+        height: 250px;
+    }
+
+    .paper {
+        right: -150px;
+        height: 580px;
+        z-index: -1;
+    }
+
+    .outfit_button {
+        padding: 50px 0 150px 0;
+    }
+
+    .solo_star_1 {
+        top: 70px;
+        right: 140px;
+        height: 60px;
+    }
+
+    .solo_star_2 {
+        top: 170px;
+        right: 110px;
+        height: 40px;
+    }
+
+    .solo_star_3 {
+        top: 200px;
+        right: 20px;
+        height: 80px;
+    }
+
+    #outfit_click {
+        height: 60px;
+        bottom: 120px;
+        left: 200px;
+    }
+
+    .outfit_button button:hover {
+        color: #D6D2EC;
+    }
+
+    .outfit_cloud_1 {
+        animation: 4s slide infinite
+    }
+
+    .outfit_cloud_3 {
+        animation: 4.5s slide infinite
+    }
+
+    /* ----- OTHER OUFITS ----- */
+
+    /* GENERAL */
+
+    .others_stars_background_1,
+    .others_stars_background_2,
+    .others_stars_background_3 {
+        height: 500px;
+    }
+
+    .outfit_line {
+        padding-bottom: 100px;
+    }
+
+    .outfit_line_background {
+        height: 80px;
+    }
+
+    .outfitBorder {
+        height: 380px;
+    }
+
+    .outfitPic {
+        height: 310px;
+        width: 220px;
+    }
+
+
+    /* TITRE */
+
+    .other_cloud_1 {
+        height: 70px;
+        left: 20px;
+        top: 70px;
+    }
+
+    .other_cloud_2 {
+        height: 40px;
+        left: 80px;
+        top: 10px;
+    }
+
+    .other_cherry_1 {
+        bottom: 50px;
+        height: 50px;
+        right: 350px;
+    }
+
+    /* Les étoiles */
+
+
+    .star_1 {
+        height: 40px;
+        right: 130px;
+        top: 40px;
+    }
+
+    .star_2 {
+        height: 50px;
+        right: 180px;
+        top: 10px;
+    }
+
+    .star_3 {
+        height: 60px;
+        right: 200px;
+        top: 70px;
+    }
+
+    .star_4 {
+        height: 40px;
+        right: 170px;
+        top: 170px;
+    }
+
+    .star_5 {
+        height: 70px;
+        right: 100px;
+        top: 105px;
+    }
+
+
+    /* LINE OUTFIT 1 */
+
+    .others_stars_background_1 {
+        left: -20px;
+    }
+
+    /* LINE OUTFIT 2 */
+
+    .others_stars_background_2 {
+        right: -20px;
+    }
+
+    /* LINE OUTFIT 3 */
+
+    .duck {
+        height: 100px;
+        top: -85px;
+    }
+
+    /* ANOTHER OUTFIT */
+
+    .another_outfit {
+        padding: 0px 0 150px 0;
+    }
+
+    .other_click {
+        height: 40px;
+        right: 400px;
+        top: 40px;
+    }
+
+    .others_stars_background_3 {
+        left: -200px;
+        top: -50px;
+    }
+
+    .other_cherry_2 {
+        display: none;
+    }
+
+    .other_paper {
+        top: -100px;
+        right: -150px;
+        height: 500px;
+    }
+
+    .other_potions {
+        height: 150px;
+        right: 90px;
+        top: 50px;
+    }
+
+    .other_moon {
+        height: 100px;
+        right: 130px;
+        top: -20px;
+    }
 
 
 }
