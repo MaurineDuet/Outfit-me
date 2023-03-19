@@ -24,6 +24,16 @@ if (location.pathname === `/outfit.html`) {
     fetch("db/db.json")
         .then(data => data.json())
         .then(jsonListOutfits => {
+
+            //Récupère les paramètres dans l'URL de outfit.html
+
+            const outfitUrl = window.location.search
+            const outfitUrlParams = new URLSearchParams(outfitUrl)
+            const outfitWeather = outfitUrlParams.get('weather')
+            const outfitColor = outfitUrlParams.get('color')
+            const outfitStyle = outfitUrlParams.get('style')
+
+
             //jsonListOutfits me donne un array rempli d'objets, chaque objet étant un outfit
 
             for (const jsonOutfit of jsonListOutfits) {
@@ -31,63 +41,71 @@ if (location.pathname === `/outfit.html`) {
                 //un outfit = un objet qui correspond à un outfit. 
                 // A cette étape on se retrouve avec un objet par outfit
 
-                //Récupère les paramètres dans l'URL de outfit.html
+                //On remplit le tableau avec les bonnes réponses
 
-                const outfitUrl = window.location.search
-                const outfitUrlParams = new URLSearchParams(outfitUrl)
-                const outfitWeather = outfitUrlParams.get('weather')
-                const outfitColor = outfitUrlParams.get('color')
-                const outfitStyle = outfitUrlParams.get('style')
+                /* if (outfitWeather === outfit.weather && outfitColor === outfit.color && outfitStyle === outfit.style) {                  
+                 }*/
 
-                //On remplit le tableay avec les bonnes réponses
+                let validated = true
 
-                if (outfitWeather === outfit.weather && outfitColor === outfit.color && outfitStyle === outfit.style) {
+                for (const [name, value] of outfitUrlParams.entries()) {
+                    if (outfit[name] !== value && value !== "idk") {
+                        validated = false
+                    }
+                }
+
+                if (validated) {
                     goodOutfits.push(outfit)
                 }
 
             }
+
+            console.log(goodOutfits)
 
             if (goodOutfits.length === 0) {
                 document.location = "nooutfit.html"
                 return
             }
 
-            //Création du visuel en fonction du nombre de réponse dans le tableau
+            //On pique le random et on l'ajoute et on le supprime du tableau des gootoutfits
 
-            for (const [index, goodOutfit] of goodOutfits.entries()) {
-                console.log([index, goodOutfit])
-                if (index % 4 === 0) {
-                    const outfitLine = templateOutfitLine.content.cloneNode(true)
-                    console.log(outfitLine)
-                    outfitSection.append(outfitLine)
-                }
-            }
-
-            //On pique le random
-
-            let randomOufit = goodOutfits[Math.floor(Math.random() * goodOutfits.length)]
+            let randomOutfit = goodOutfits[Math.floor(Math.random() * goodOutfits.length)]
+            goodOutfits.splice(goodOutfits.indexOf(randomOutfit), 1)
 
             const outfitOfTheDay = document.querySelector(".outfitOfTheDay")
-            const allOutfitItems = document.querySelectorAll(".outfit_pics")
-            const outfitItems = allOutfitItems[allOutfitItems.length - 1]
+            outfitOfTheDay.innerHTML =
+                `<figure data-outfit-id="${randomOutfit.id}" data-outfit-color="${randomOutfit.color}" data-outfit-weather="${randomOutfit.weather}" data-outfit-style="${randomOutfit.style}">
+            <div>
+            <img src="${randomOutfit.img}">
+            </div>
+            </figure>`
+
+            //On remplace le titre
 
             const otherOutfitTitle = document.querySelector(".other_outfit_title h2")
-            const otherOutfitLine = document.querySelector(".outfit_line")
+            otherOutfitTitle.innerText = `Other looks for ${outfitWeather}, ${outfitColor} and ${outfitStyle} !`
 
-            //On rempli le visuel avec les bonnes photos
+            if (goodOutfits.length === 0) {
+                otherOutfitTitle.innerText = "There are no other outfits !"
+                //otherOutfitLine.classList.add('hidden')
+            } else {
 
-            goodOutfits.forEach(goodOutfit => {
+                //On rempli le visuel avec les bonnes photos
 
-                if (goodOutfit.id === randomOufit.id) {
-                    outfitOfTheDay.innerHTML =
-                        `<figure data-outfit-id="${goodOutfit.id}" data-outfit-color="${goodOutfit.color}" data-outfit-weather="${goodOutfit.weather}" data-outfit-style="${goodOutfit.style}">
-                <div>
-                <img src="${goodOutfit.img}">
-                </div>
-                </figure>`
+                goodOutfits.forEach((goodOutfit, index) => {
 
-                } else {
-                    otherOutfitTitle.innerText = `Other looks for ${goodOutfit.weather}, ${goodOutfit.color} and ${goodOutfit.style} !`
+                    //Création du visuel en fonction du nombre de réponse dans le tableau
+
+                    if (index % 3 === 0) {
+                        const outfitLine = templateOutfitLine.content.cloneNode(true)
+                        outfitSection.append(outfitLine)
+                        console.log(outfitLine, index)
+                    }
+
+                    const otherOutfitLine = document.querySelector(".outfit_line")
+
+                    const allOutfitItems = document.querySelectorAll(".outfit_pics")
+                    const outfitItems = allOutfitItems[allOutfitItems.length - 1]
                     outfitItems.innerHTML +=
                         `<figure class="outfitItem" data-outfit-id="${goodOutfit.id}" data-outfit-color="${goodOutfit.color}" data-outfit-weather="${goodOutfit.weather}" data-outfit-style="${goodOutfit.style}">                             
                 
@@ -98,15 +116,21 @@ if (location.pathname === `/outfit.html`) {
                             <img class="outfitBorder" src="assets/outfit/pic_background.png" alt="">
                 
                         </figure>`
-                }
 
-                if (allOutfitItems.length <= 1) {
-                    otherOutfitTitle.innerText = "There are no other outfits !"
-                    otherOutfitLine.classList.add('hidden')
-                }
-            })
+                })
+
+            }
 
 
         })
 
 }
+
+/* for (const [index, goodOutfit] of goodOutfits.entries()) {
+     console.log([index, goodOutfit])
+     if (index % 4 === 0) {
+         const outfitLine = templateOutfitLine.content.cloneNode(true)
+         console.log(outfitLine)
+         outfitSection.append(outfitLine)
+     }
+ } */
