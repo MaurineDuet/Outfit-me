@@ -470,7 +470,784 @@
     "style": "grunge",
     "id": "59",
     "img": "db/db_assets/black/black_59.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "pink",
+    "style": "comfy",
+    "id": "60",
+    "img": "db/db_assets/pink/pink_1.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "comfy",
+    "id": "61",
+    "img": "db/db_assets/pink/pink_2.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "comfy",
+    "id": "62",
+    "img": "db/db_assets/pink/pink_3.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "comfy",
+    "id": "63",
+    "img": "db/db_assets/pink/pink_4.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "korean",
+    "id": "64",
+    "img": "db/db_assets/pink/pink_5.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "cute",
+    "id": "65",
+    "img": "db/db_assets/pink/pink_6.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "pink",
+    "style": "cute",
+    "id": "66",
+    "img": "db/db_assets/pink/pink_7.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "pink",
+    "style": "comfy",
+    "id": "67",
+    "img": "db/db_assets/pink/pink_8.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "korean",
+    "id": "68",
+    "img": "db/db_assets/pink/pink_9.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "korean",
+    "id": "69",
+    "img": "db/db_assets/pink/pink_10.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "pink",
+    "style": "comfy",
+    "id": "70",
+    "img": "db/db_assets/pink/pink_11.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "pink",
+    "style": "street",
+    "id": "71",
+    "img": "db/db_assets/pink/pink_12.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "korean",
+    "id": "72",
+    "img": "db/db_assets/pink/pink_13.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "korean",
+    "id": "73",
+    "img": "db/db_assets/pink/pink_14.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "comfy",
+    "id": "74",
+    "img": "db/db_assets/pink/pink_15.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "cute",
+    "id": "75",
+    "img": "db/db_assets/pink/pink_16.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "street",
+    "id": "76",
+    "img": "db/db_assets/pink/pink_17.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "comfy",
+    "id": "77",
+    "img": "db/db_assets/pink/pink_18.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "comfy",
+    "id": "78",
+    "img": "db/db_assets/pink/pink_19.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "cute",
+    "id": "79",
+    "img": "db/db_assets/pink/pink_20.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "pink",
+    "style": "comfy",
+    "id": "80",
+    "img": "db/db_assets/pink/pink_21.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "pink",
+    "style": "academic",
+    "id": "81",
+    "img": "db/db_assets/pink/pink_22.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "cute",
+    "id": "82",
+    "img": "db/db_assets/pink/pink_23.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "academic",
+    "id": "83",
+    "img": "db/db_assets/pink/pink_24.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "comfy",
+    "id": "84",
+    "img": "db/db_assets/pink/pink_25.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "korean",
+    "id": "85",
+    "img": "db/db_assets/pink/pink_26.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "academic",
+    "id": "86",
+    "img": "db/db_assets/pink/pink_27.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "korean",
+    "id": "87",
+    "img": "db/db_assets/pink/pink_28.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "cute",
+    "id": "88",
+    "img": "db/db_assets/pink/pink_29.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "korean",
+    "id": "89",
+    "img": "db/db_assets/pink/pink_30.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "korean",
+    "id": "90",
+    "img": "db/db_assets/pink/pink_31.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "korean",
+    "id": "91",
+    "img": "db/db_assets/pink/pink_32.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "comfy",
+    "id": "92",
+    "img": "db/db_assets/pink/pink_33.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "street",
+    "id": "93",
+    "img": "db/db_assets/pink/pink_34.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "korean",
+    "id": "94",
+    "img": "db/db_assets/pink/pink_35.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "street",
+    "id": "95",
+    "img": "db/db_assets/pink/pink_36.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "grunge",
+    "id": "96",
+    "img": "db/db_assets/pink/pink_37.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "pink",
+    "style": "cute",
+    "id": "97",
+    "img": "db/db_assets/pink/pink_38.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "comfy",
+    "id": "98",
+    "img": "db/db_assets/pink/pink_39.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "pink",
+    "style": "grunge",
+    "id": "99",
+    "img": "db/db_assets/pink/pink_40.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "comfy",
+    "id": "100",
+    "img": "db/db_assets/pink/pink_41.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "street",
+    "id": "101",
+    "img": "db/db_assets/pink/pink_42.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "grunge",
+    "id": "102",
+    "img": "db/db_assets/pink/pink_43.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "cute",
+    "id": "103",
+    "img": "db/db_assets/pink/pink_44.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "comfy",
+    "id": "104",
+    "img": "db/db_assets/pink/pink_45.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "academic",
+    "id": "105",
+    "img": "db/db_assets/pink/pink_46.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "pink",
+    "style": "cute",
+    "id": "106",
+    "img": "db/db_assets/pink/pink_47.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "street",
+    "id": "107",
+    "img": "db/db_assets/pink/pink_48.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "grunge",
+    "id": "108",
+    "img": "db/db_assets/pink/pink_49.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "pink",
+    "style": "academic",
+    "id": "109",
+    "img": "db/db_assets/pink/pink_50.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "comfy",
+    "id": "110",
+    "img": "db/db_assets/pink/pink_51.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "street",
+    "id": "111",
+    "img": "db/db_assets/pink/pink_52.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "street",
+    "id": "112",
+    "img": "db/db_assets/pink/pink_53.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "pink",
+    "style": "grunge",
+    "id": "113",
+    "img": "db/db_assets/pink/pink_54.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "street",
+    "id": "114",
+    "img": "db/db_assets/pink/pink_55.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "pink",
+    "style": "grunge",
+    "id": "115",
+    "img": "db/db_assets/pink/pink_56.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "comfy",
+    "id": "116",
+    "img": "db/db_assets/beige/beige_1.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "beige",
+    "style": "comfy",
+    "id": "117",
+    "img": "db/db_assets/beige/beige_2.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "street",
+    "id": "118",
+    "img": "db/db_assets/beige/beige_3.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "academic",
+    "id": "117",
+    "img": "db/db_assets/beige/beige_4.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "cute",
+    "id": "118",
+    "img": "db/db_assets/beige/beige_5.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "cute",
+    "id": "119",
+    "img": "db/db_assets/beige/beige_6.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "comfy",
+    "id": "120",
+    "img": "db/db_assets/beige/beige_7.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "academic",
+    "id": "121",
+    "img": "db/db_assets/beige/beige_8.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "korean",
+    "id": "122",
+    "img": "db/db_assets/beige/beige_9.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "korean",
+    "id": "123",
+    "img": "db/db_assets/beige/beige_10.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "comfy",
+    "id": "124",
+    "img": "db/db_assets/beige/beige_11.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "korean",
+    "id": "125",
+    "img": "db/db_assets/beige/beige_12.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "cute",
+    "id": "126",
+    "img": "db/db_assets/beige/beige_13.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "academic",
+    "id": "127",
+    "img": "db/db_assets/beige/beige_14.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "comfy",
+    "id": "128",
+    "img": "db/db_assets/beige/beige_15.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "korean",
+    "id": "129",
+    "img": "db/db_assets/beige/beige_16.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "korean",
+    "id": "130",
+    "img": "db/db_assets/beige/beige_17.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "cute",
+    "id": "131",
+    "img": "db/db_assets/beige/beige_18.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "comfy",
+    "id": "132",
+    "img": "db/db_assets/beige/beige_19.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "comfy",
+    "id": "133",
+    "img": "db/db_assets/beige/beige_20.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "cute",
+    "id": "134",
+    "img": "db/db_assets/beige/beige_21.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "comfy",
+    "id": "135",
+    "img": "db/db_assets/beige/beige_22.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "comfy",
+    "id": "136",
+    "img": "db/db_assets/beige/beige_23.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "cute",
+    "id": "137",
+    "img": "db/db_assets/beige/beige_24.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "beige",
+    "style": "korean",
+    "id": "138",
+    "img": "db/db_assets/beige/beige_25.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "street",
+    "id": "139",
+    "img": "db/db_assets/beige/beige_26.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "cute",
+    "id": "140",
+    "img": "db/db_assets/beige/beige_27.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "beige",
+    "style": "comfy",
+    "id": "141",
+    "img": "db/db_assets/beige/beige_28.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "academic",
+    "id": "142",
+    "img": "db/db_assets/beige/beige_29.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "comfy",
+    "id": "143",
+    "img": "db/db_assets/beige/beige_30.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "comfy",
+    "id": "144",
+    "img": "db/db_assets/beige/beige_31.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "beige",
+    "style": "academic",
+    "id": "145",
+    "img": "db/db_assets/beige/beige_32.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "comfy",
+    "id": "146",
+    "img": "db/db_assets/beige/beige_33.jpg"
+},
+
+{
+    "weather":"hot",
+    "color": "beige",
+    "style": "korean",
+    "id": "147",
+    "img": "db/db_assets/beige/beige_34.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "comfy",
+    "id": "148",
+    "img": "db/db_assets/beige/beige_35.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "cute",
+    "id": "149",
+    "img": "db/db_assets/beige/beige_36.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "cute",
+    "id": "150",
+    "img": "db/db_assets/beige/beige_37.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "street",
+    "id": "151",
+    "img": "db/db_assets/beige/beige_38.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "comfy",
+    "id": "152",
+    "img": "db/db_assets/beige/beige_39.jpg"
+},
+
+{
+    "weather":"cold",
+    "color": "beige",
+    "style": "academic",
+    "id": "153",
+    "img": "db/db_assets/beige/beige_40.jpg"
+},
+
+{
+    "weather":"mild",
+    "color": "beige",
+    "style": "academic",
+    "id": "154",
+    "img": "db/db_assets/beige/beige_41.jpg"
 }
+
 
 ]
 
