@@ -49,7 +49,8 @@ if (location.pathname === `/outfit.html`) {
                 let validated = true
 
                 for (const [name, value] of outfitUrlParams.entries()) {
-                    if (outfit[name] !== value && value !== "idk") {
+                    if (outfit[name].includes(value) === false && value !== "idk") {
+
                         validated = false
                     }
                 }
@@ -59,8 +60,6 @@ if (location.pathname === `/outfit.html`) {
                 }
 
             }
-
-            console.log(goodOutfits)
 
             if (goodOutfits.length === 0) {
                 document.location = "nooutfit.html"

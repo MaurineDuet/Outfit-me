@@ -1,9 +1,9 @@
 
 [
 {
-    "weather":"mild",
-    "color": "black",
-    "style": "comfy",
+    "weather":["mild"],
+    "color": ["black"],
+    "style": ["comfy", "cute"],
     "id": "1",
     "img": "db/db_assets/black/black_1.jpg"
 },
